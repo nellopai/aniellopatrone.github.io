@@ -12,6 +12,7 @@
 <link rel="stylesheet" href="{{ "/assets/css/index.css" | relative_url }}">
 {% endif %}
 <link rel="stylesheet" href="{{ "/assets/css/classes.css" | relative_url }}">
+<link rel="stylesheet" href="{{ "/assets/css/custom.css" | relative_url }}">
 {% if site.plugins contains "jekyll-feed" %}<link rel="alternate" href="{{ site.feed.path | default: "/feed.xml" | relative_url }}" type="application/atom+xml" title="{{ site.title }}">{% endif %}
 {% if page.mathjax or site.mathjax %}
 <link rel="stylesheet" href="{{ "/assets/katex/katex.min.css" | relative_url }}">
@@ -27,9 +28,15 @@
 {% else %}
   {% assign pages = site.pages | where_exp: "item", "item.title and item.sitemap != false" | sort: "order" %}
 {% endif %}
-
+<div class="avatar">
+    <img src="/assets/images/avatar.jpg" />
+</div>
 <header>
-  <a href="{{ "/" | relative_url }}" class="title">{{ site.title | escape }}</a>
+  <div style="display: grid;">
+    <a href="{{ "/" | relative_url }}" class="title">{{ site.title | escape }}</a>
+    <p style="font-size: calc(0.8rem + 0.3vw); margin: 0em;">{{ site.description | default: site.title }}</p>
+    {% include menu.html menu=site.external icon=true %}
+  </div>
   {% include menu.html menu=pages text=true %}
 </header>
 

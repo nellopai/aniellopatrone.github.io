@@ -1,0 +1,58 @@
+---
+---
+
+.biography
+    margin: 0;
+    padding: 0;
+    display: block;
+    
+.item
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+
+.timespan
+    grid-column: span 2;
+
+.pic
+    grid-column: span 2;
+    vertical-align: top;
+    border-left: 2px solid #cfcfcf;
+    position: relative;
+    
+.logo
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    
+.dot
+    position: absolute;
+    top: 0px;
+    left: -8px;
+    width: 10px;
+    height: 10px;
+    border-radius: 7px;
+    background-color: #cfcfcf;
+    border: 2px solid white;
+    
+.desc
+    grid-column: span 9;
+
+.avatar
+    padding: 1.5em;
+    background: #2a2c33;
+    background-image: url('/assets/images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+@media (min-width: 36em)
+    .avatar
+        padding: 1.65em calc(20% - 4em);
+        padding-top: 1.65em;
+
+.avatar > img
+    width: 200px;
+    border-radius: 100px;
+    border: 2px solid white;
+    margin: 0;;
+
+
