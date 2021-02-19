@@ -19,6 +19,7 @@ navigation:
   - {file: "index.html", icon: home}
   - {file: "README.md", icon: address-card}
   - {file: "cv.md", icon: address-card}
+  - {file: "publications.md", icon: scroll}
 
 external:                  # see http://fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:lukasflang+web@gmail.com"}
