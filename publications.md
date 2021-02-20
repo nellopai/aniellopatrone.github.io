@@ -4,6 +4,8 @@ permalink: "/publications/"
 layout: page
 ---
 
+See my <a href="https://scholar.google.at/citations?user=M2aY_QcAAAAJ&hl=en" target="_blank">Google Scholar</a> page for a full list.
+
 <div class="publication">
     <div class="pub_image">
         <img src="/assets/images/publications/LanDutScaSanScho19.png"> 
@@ -21,7 +23,7 @@ layout: page
     </div>
     <div class="pub_text">
         <strong>Optical flow analysis reveals that Kinesin-mediated advection impacts on the orientation of microtubules</strong><br/>
-        M. Drechsler, <strong>L.-F. Lang</strong>, H. Dirks, M. Burger, C.-B. Schönlieb, and I. M. Palacios<br/>
+        M. Drechsler, <strong>L.-F. Lang</strong>, H. Dirks, M. Burger, C.-B. Schönlieb, and I.-M. Palacios<br/>
         <em>Mol. Biol. Cell</em>, 2020 [<a href="http://dx.doi.org/10.1091/mbc.E19-08-0440">DOI</a>] [<a href="https://doi.org/10.1101/556043" target="_blank">bioRxiv</a>] [<a href="https://github.com/lukaslang/ofmt" target="_blank">Code</a>]
     </div>
 </div>
