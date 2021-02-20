@@ -53,4 +53,23 @@
     width: 200px;
     border-radius: 100px;
     border: 2px solid white;
-    margin: 0;;
+    margin: 0;
+
+.publication
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    padding-bottom: 1em;
+
+.pub_text
+    grid-column: span 8;
+    
+.pub_image
+    grid-column: span 2;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    
+.pub_image > img
+    margin: 0;
+    padding: 0;
+    
