@@ -1,4 +1,5 @@
 <nav>
+{%- if include.text -%}<a aria-label="Home" href="/"><span aria-hidden="true">Home</span></a>{%- endif -%}
 {%- for item in include.menu -%}
   {%- assign node = site.pages | where: "name", item.file | first -%}
   {%- assign url = item.url | default: node.url -%}

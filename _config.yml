@@ -9,10 +9,9 @@ paginate: 3
 paginate_path: /blog/page/:num/
 
 # Layout
-
 show_social: true          # show site description and social links in the footer
 show_excerpts: true        # show article excerpts on the home page
-show_frame: true           # adds a gray frame to the site
+show_frame: false           # adds a gray frame to the site
 show_sidebar: false        # show a sidebar instead of the usual header
 
 # Menu
