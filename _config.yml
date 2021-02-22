@@ -1,6 +1,6 @@
 title: "Dr Lukas F Lang"
 author: "Dr Lukas F Lang"
-description: "I'm passionate about science, maths, and data"
+description: "Passionate about science, maths, and data"
 permalink: /blog/:year/:month/:day/:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
