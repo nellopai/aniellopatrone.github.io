@@ -34,7 +34,7 @@
 <header>
   <div style="display: grid;">
     <a href="{{ "/" | relative_url }}" class="title">{{ site.title | escape }}</a>
-    <p style="font-size: calc(0.8rem + 0.3vw); margin: 0em;">{{ site.description | default: site.title }}</p>
+    <p style="margin: 0em;">{{ site.description | default: site.title }}</p>
     {% include menu.html menu=site.external icon=true %}
   </div>
   {% include menu.html menu=pages text=true %}
