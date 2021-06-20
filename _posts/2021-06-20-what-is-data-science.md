@@ -37,13 +37,13 @@ The author summarises that today's 'consensus data science' is essentially '_a s
 Clearly, when creating a curriculum, universities need to balance certain criteria, such as duration of study, difficulty of the subject, job prospects of future graduates, or available faculty.
 
 Without question, specialisations are required on university level and naturally result in a significant overlap between disciplines and departments (so do many traditional curricula).
-Nevertheless, a practical approach seems to be at the very heart of many data science programs (which is the same for many other applied curricula).
+Nevertheless, a practical approach seems to be at the very heart of many data science programmes (which is the same for many other applied curricula).
 
-As a result, such definitions can hardly be used to settle the debate.
+As a result, the quoted definitions can hardly be used to settle the debate.
 They are, however, of great help to prospective students!
 
 **Definition by motivation.**
-Much to the regret of an academic, Donoho argues that modern data science developments, including abovementioned curricula, are  motivated mainly by commercial, rather than intellectual, interest.
+Much to the regret of an academic, Donoho argues that modern data science developments, including above-mentioned curricula, are  motivated mainly by commercial, rather than intellectual, interest.
 
 While I personally value an intellectual stance, what matters is the impact a field has, be it on an intellectual or on commercial level.
 
@@ -89,7 +89,7 @@ First, what every definition should include are inherent **principles and values
 * Guidelines for practising ethical data science and ethics for creating trustworthy AI
 * User experience aspects and human in the loop principles
 
-just to name a few.
+--- just to name a few.
 
 In all fairness, the reproducibility aspect and the open science movement are well discussed in Donoho's outlook for the next 50 years of data science.
 
