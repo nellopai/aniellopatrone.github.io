@@ -34,7 +34,7 @@ My responsibilities include:
             </div>
         </div>
         <div class="desc">
-Data Science and AI Lead at <a href="https://www.voestalpine.com/highperformancemetals/en/" target="_blank">voestalpine High Performance Metals</a> in Vienna, Austria, where I reported to the Global Chief Digital Officer.</br>
+Data Science and AI Lead at <a href="https://www.voestalpine.com/highperformancemetals/en/" target="_blank">voestalpine High Performance Metals</a> in Vienna, Austria, where I reported to the Global Chief Digital Officer.<br />
 During winter term 2019, I was also an external lecturer at the <a href="https://informatics.tuwien.ac.at/" target="_blank">Faculty of Informatics</a> at TU Wien.
         </div>
     </div>
