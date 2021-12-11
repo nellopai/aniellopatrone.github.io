@@ -21,6 +21,7 @@ This list serves as an idea storage for things that I intend to write about at s
 * Collaboration & working in a data team
 * Leading a data team
 * Hiring
+* Analytics translator (https://www.mckinsey.com/business-functions/mckinsey-analytics/our-insights/analytics-translator)
 
 ### Career growth
 
