@@ -18,10 +18,10 @@ layout: page
 I am <b>Head of Data Science and AI</b> at <a href="https://www.voestalpine.com/highperformancemetals/en/digitalsolutions/" target="_blank">voestalpine High Performance Metals DIGITAL SOLUTIONS</a> in Vienna, Austria.
 My responsibilities include:
 <ul style="margin: 0;">
-    <li style="margin: 0;">strategic guidance of divisional data science and AI initiatives,</li>
-    <li style="margin: 0;">technical steering of the divisional big data platform,</li>
-    <li style="margin: 0;">leading a team that builds & ships data products, and</li>
-    <li style="margin: 0;">training of experts across our division.</li>
+    <li style="margin: 0;">Strategic guidance of divisional data science and AI initiatives,</li>
+    <li style="margin: 0;">Technical steering of the divisional big data platform,</li>
+    <li style="margin: 0;">Leading a team that builds & ships data products, and</li>
+    <li style="margin: 0;">Training of experts across our division.</li>
 </ul>
         </div>
     </div>
