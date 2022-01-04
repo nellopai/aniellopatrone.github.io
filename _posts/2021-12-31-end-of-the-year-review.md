@@ -53,7 +53,7 @@ One of the early advices given to me as a young parent turned out to be one of, 
 Those memories are indeed a source of great joy.
 Thank you for that great advice!
 
-### What didn't go well:
+### What didn't go well?
 
 **Blogging**. While I managed to redesign and launch a new website, I wrote only three blog posts (including this) last year, none of which is technical.
 I hope to be able to dedicate more time next year.
