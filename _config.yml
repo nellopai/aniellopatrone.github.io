@@ -21,7 +21,7 @@ navigation:
   - {file: "publications.md", icon: scroll}
 
 external:                  # see http://fontawesome.com/icons
-  - {title: Mail, icon: envelope, url: "mailto:lukasflang+web@gmail.com"}
+  - {title: Mail, icon: envelope, url: "mailto:contact@lukaslang.eu"}
   - {title: LinkedIn, icon: linkedin, url: "https://linkedin.com/in/lukaslang"}
   - {title: Twitter, icon: twitter, url: "https://twitter.com/lukaslang"}
   - {title: Github, icon: github, url: "https://github.com/lukaslang"}
