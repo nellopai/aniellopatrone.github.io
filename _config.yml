@@ -1,5 +1,5 @@
-title: "Dr Lukas F Lang"
-author: "Dr Lukas F Lang"
+title: "Dr Aniello R Patrone"
+author: "Dr Aniello R Patrone"
 description: "Passionate about maths, science, and data"
 permalink: /blog/:year/:month/:day/:title/
 lang: "en"
@@ -21,10 +21,10 @@ navigation:
   - {file: "publications.md", icon: scroll}
 
 external:                  # see http://fontawesome.com/icons
-  - {title: Mail, icon: envelope, url: "mailto:contact@lukaslang.eu"}
-  - {title: LinkedIn, icon: linkedin, url: "https://linkedin.com/in/lukaslang"}
-  - {title: Twitter, icon: twitter, url: "https://twitter.com/lukaslang"}
-  - {title: Github, icon: github, url: "https://github.com/lukaslang"}
+  - {title: Mail, icon: envelope, url: "mailto:npatrone@protonmail.com"}
+  - {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/aniello-raffaele-patrone-71183127/?locale=en_US"}
+  # - {title: Twitter, icon: twitter, url: "https://twitter.com/lukaslang"}
+  - {title: Github, icon: github, url: "https://github.com/nellopai"}
   - {title: Subscribe, icon: rss, url: "/feed.xml"}
 
 comments:
