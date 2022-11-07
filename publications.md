@@ -4,24 +4,19 @@ permalink: "/publications/"
 layout: page
 ---
 
-See my <a href="https://scholar.google.at/citations?user=M2aY_QcAAAAJ&hl=en" target="_blank">Google Scholar</a> page for a full list.
+See my <a href="https://scholar.google.at/citations?hl=en&user=TE0GJuMAAAAJ" target="_blank">Google Scholar</a> page for a full list.
+
+* <strong>Visual attention in edited dynamical images</strong><br/>
+    U. Ansorge, S. Buchinger, C. Valuch,<strong> A. R. Patrone</strong>, and O. Scherzer.<br/>
+    <em>Signal Processing and Multimedia Applications (SIGMAP) International Conference. IEEE</em>, 2014
+    [<a href="https://doi.org/10.5220/0005101901980205" target="_blank">DOI</a>] [<a href="https://www.researchgate.net/profile/Aniello-Patrone-2/publication/285516152_Visual_Attention_in_Edited_Dynamical_Images/links/56af5e1308aec781b280c7d7/Visual-Attention-in-Edited-Dynamical-Images.pdf" target="_blank">Paper</a>] 
+
+* <strong>The effect of cinematic cuts on human attention</strong><br/>
+    C. Valuch, U. Ansorge, S. Buchinger,<strong> A. R. Patrone</strong>, and O. Scherzer.<br/>
+    <em>Proceedings of ACM international conference on Interactive experiences for TV and online video. ACM,</em>, 2014
+    [<a href="https://doi.org/10.1145/2602299.2602307" target="_blank">DOI</a>] [<a href="https://dl.acm.org/doi/pdf/10.1145/2602299.2602307?casa_token=9RNeo2sQua8AAAAA:DGp46S_ohe2CzNbrrI_uRetXGWtvMs3KQm4Caw3cfVtamW0F0rp3RyYJlsBrNeM2AIIr1d_oflHiLQQ" target="_blank">Paper</a>] 
 
 <div class="publication">
-    <div class="pub_image">
-        <img src="/assets/images/publications/LanDutScaSanScho19.png"> 
-    </div>
-    <div class="pub_text">
-        <strong>Joint Motion Estimation and Source Identification using Convective Regularisation with an Application to the Analysis of Laser Nanoablations</strong><br/>
-        <strong>L. F. Lang</strong>, N. Dutta, E. Scarpa, B. Sanson, C.-B. Schönlieb, and J. Étienne.<br/>
-        <em>Time-dependent Problems in Imaging and Parameter Identification</em>, 2021<br/>
-        [<a href="https://doi.org/10.1007/978-3-030-57784-1_7" target="_blank">DOI</a>] [<a href="https://doi.org/10.1101/686261" target="_blank">bioRxiv</a>] [<a href="https://github.com/lukaslang/ofmc" target="_blank">Code</a>] [<a href="https://doi.org/10.5281/zenodo.3257654" target="_blank">Data</a>]
-    </div>
-</div>
-
-<div class="publication">
-    <div class="pub_image">
-        <img src="/assets/images/publications/DreLanDirBurScho19.png"> 
-    </div>
     <div class="pub_text">
         <strong>Optical flow analysis reveals that Kinesin-mediated advection impacts on the orientation of microtubules</strong><br/>
         M. Drechsler, <strong>L. F. Lang</strong>, H. Dirks, M. Burger, C.-B. Schönlieb, and I. M. Palacios<br/>
@@ -31,9 +26,6 @@ See my <a href="https://scholar.google.at/citations?user=M2aY_QcAAAAJ&hl=en" tar
 </div>
 
 <div class="publication">
-    <div class="pub_image">
-        <img src="/assets/images/publications/Lan19.png"> 
-    </div>
     <div class="pub_text">
         <strong>A Numerical Framework for Efficient Motion Estimation on Evolving Sphere-Like Surfaces based on Brightness and Mass Conservation Laws</strong><br/>
         <strong>L. F. Lang</strong><br/>
@@ -43,9 +35,6 @@ See my <a href="https://scholar.google.at/citations?user=M2aY_QcAAAAJ&hl=en" tar
 </div>
 
 <div class="publication">
-    <div class="pub_image">
-        <img src="/assets/images/publications/LanNeuOktScho19.png"> 
-    </div>
     <div class="pub_text">
         <strong>Template-Based Image Reconstruction from Sparse Tomographic Data</strong><br/>
         <strong>L. F. Lang</strong>, S. Neumayer, O. Öktem, and C.-B. Schönlieb<br/>
@@ -55,9 +44,6 @@ See my <a href="https://scholar.google.at/citations?user=M2aY_QcAAAAJ&hl=en" tar
 </div>
 
 <div class="publication">
-    <div class="pub_image">
-        <img src="/assets/images/publications/Lan17.png"> 
-    </div>
     <div class="pub_text">
         <strong>A Dynamic Programming Solution to Bounded Dejittering Problems</strong><br/>
         <strong>L. F. Lang</strong><br/>
@@ -67,9 +53,6 @@ See my <a href="https://scholar.google.at/citations?user=M2aY_QcAAAAJ&hl=en" tar
 </div>
 
 <div class="publication">
-    <div class="pub_image">
-        <img src="/assets/images/publications/LanSch17.png"> 
-    </div>
     <div class="pub_text">
         <strong>Optical flow on evolving sphere-like surfaces</strong><br/>
         <strong>L. F. Lang</strong>, O. Scherzer<br/>
@@ -79,9 +62,6 @@ See my <a href="https://scholar.google.at/citations?user=M2aY_QcAAAAJ&hl=en" tar
 </div>
 
 <div class="publication">
-    <div class="pub_image">
-        <img src="/assets/images/publications/KirLanSch15.png"> 
-    </div>
     <div class="pub_text">
         <strong>Optical flow on evolving surfaces with space and time regularisation</strong><br/>
         C. Kirisits, <strong>L. F. Lang</strong>, O. Scherzer<br/>
@@ -91,9 +71,6 @@ See my <a href="https://scholar.google.at/citations?user=M2aY_QcAAAAJ&hl=en" tar
 </div>
 
 <div class="publication">
-    <div class="pub_image">
-        <img src="/assets/images/publications/KirLanSch14.png"> 
-    </div>
     <div class="pub_text">
         <strong>Decomposition of optical flow on the sphere</strong><br/>
         C. Kirisits, <strong>L. F. Lang</strong>, and O. Scherzer<br/>
