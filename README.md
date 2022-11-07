@@ -1,4 +1,4 @@
-Professional website and blog of Lukas F Lang.
+Professional website and blog of Aniello R Patrone.
 
 All material, including texts, images, and layouts, are subject to copyright.
 
