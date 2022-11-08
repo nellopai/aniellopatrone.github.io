@@ -78,6 +78,24 @@ My responsibilities included:
         </div>
     </div>
     <div class="item">
+        <div class="timespan">2011-2012</div>
+        <div class="pic">
+            <div class="dot"></div>
+            <div class="logo">
+                <img src="/assets/images/univie-logo.png" />
+            </div>
+        </div>
+        <div class="desc">
+            I was a <b>Research Associate</b> for the <a href="http://www.smile.unina.it/index.php/eye-tracker" target="_blank">SMILE Project</a>, a University of Naples Spin-off.<br />
+        My responsibilities included:
+        <ul style="margin: 0;">
+            <li style="margin: 0;">Creation of an uncalibrated eye-tracker ,</li>
+            <li style="margin: 0;">Developing the City & Bus application for iOS,</li>
+            <li style="margin: 0;">Coaching Master degree students.</li>
+        </ul>
+        </div>
+    </div>
+    <div class="item">
         <div class="timespan">2008-2011</div>
         <div class="pic">
             <div class="dot"></div>
