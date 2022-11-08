@@ -11,55 +11,60 @@ layout: page
         <div class="pic">
             <div class="dot"></div>
             <div class="logo">
-                <img src="/assets/images/voestalpine-ds-logo.png" />
+                <img src="/assets/images/piur-logo.png" />
             </div>
         </div>
         <div class="desc">
-I am <b>Head of Data Science and AI</b> at <a href="https://www.voestalpine.com/highperformancemetals/en/digitalsolutions/" target="_blank">voestalpine High Performance Metals DIGITAL SOLUTIONS</a> in Vienna, Austria.
+I am <b>Senior Deep Learning Scientist</b> at <a href="https://piurimaging.com/" target="_blank">piur imaging GmbH</a> in Vienna, Austria.
 My responsibilities include:
 <ul style="margin: 0;">
-    <li style="margin: 0;">Strategic guidance of divisional data science and AI initiatives,</li>
-    <li style="margin: 0;">Technical steering of the divisional big data platform,</li>
-    <li style="margin: 0;">Leading a team that builds & ships data products, and</li>
-    <li style="margin: 0;">Training of experts across our division.</li>
+    <li style="margin: 0;">Research and Development of Deep Learning models for medical applications,</li>
+    <li style="margin: 0;">Design and development of Deep Learning workflows (MLOps),</li>
+    <li style="margin: 0;">CI/CD improvements implementation, and</li>
+    <li style="margin: 0;">Coaching young ai engineers.</li>
 </ul>
         </div>
     </div>
     <div class="item">
-        <div class="timespan">2019-2021</div>
+        <div class="timespan">2018-2020</div>
         <div class="pic">
             <div class="dot"></div>
             <div class="logo">
-                <img src="/assets/images/voestalpine-logo.png" />
+                <img src="/assets/images/anyline-logo.png" />
             </div>
         </div>
         <div class="desc">
-<b>Data Science and AI Lead</b> at <a href="https://www.voestalpine.com/highperformancemetals/en/" target="_blank">voestalpine High Performance Metals</a> in Vienna, Austria, where I reported to the Global Chief Digital Officer.<br />
-During winter term 2019, I was also an external lecturer at the <a href="https://informatics.tuwien.ac.at/" target="_blank">Faculty of Informatics</a> at TU Wien.
+<b>Senior Computer Vision Engineer</b> at <a href="https://anyline.com/" target="_blank">Anyline</a> in Vienna, Austria.<br />
+My responsibilities included:
+<ul style="margin: 0;">
+    <li style="margin: 0;">Research and Development of Deep Learning models for various use cases on mobile devices. ,</li>
+    <li style="margin: 0;">Leading Anyline projects in the role of Project Manager,</li>
+    <li style="margin: 0;">Improving agile processes in the role of Scrum Master, and</li>
+    <li style="margin: 0;">Coaching young ai engineers.</li>
+</ul>
         </div>
     </div>
     <div class="item">
-        <div class="timespan">2017-2019</div>
+        <div class="timespan">2016-2017</div>
         <div class="pic">
             <div class="dot"></div>
             <div class="logo">
-                <img src="/assets/images/cambridge-logo.png" />
+                <img src="/assets/images/kiwi-logo.png" />
             </div>
         </div>
-        <div class="desc">I held a position as a <b>Research Associate</b> within the Department of Applied Mathematics and Theoretical Physics (<a href="https://www.damtp.cam.ac.uk/" target="_blank">DAMTP</a>) at the <a href="https://www.cam.ac.uk/" target="_blank">University of Cambridge</a>. I was a member of the <a href="http://www.damtp.cam.ac.uk/research/cia/" target="_blank">Cambridge Image Analysis</a> group and was supervised by <a href="https://www.damtp.cam.ac.uk/user/cbs31/" target="_blank">Prof Dr Carola-Bibiane Schönlieb</a>.</div>
+        <div class="desc"> 
+        <b>Computer Vision Develope</b>  at the <a href="https://www.genetec.com/products/unified-security/omnicast/video-analytics" target="_blank">Kiwisecurity (now Videoanalytic department of Genetec)</a> in Vienna, Austria<br />
+        My responsibilities included:
+        <ul style="margin: 0;">
+            <li style="margin: 0;">Optimize and develope video-surveillance applications ,</li>
+            <li style="margin: 0;">Restructuring of testing and deployment on GPU of existing applications,</li>
+            <li style="margin: 0;">Improving agile processes in the role of Scrum Master, and</li>
+            <li style="margin: 0;">Coaching young engineers.</li>
+        </ul>
+    </div>
     </div>
     <div class="item">
-        <div class="timespan">2015-2016</div>
-        <div class="pic">
-            <div class="dot"></div>
-            <div class="logo">
-                <img src="/assets/images/oeaw-logo.png" />
-            </div>
-        </div>
-        <div class="desc">I was a <b>Research Scientist</b> at the Johann Radon Institute for Computational and Applied Mathematics (<a href="https://www.ricam.oeaw.ac.at/" target="_blank">RICAM</a>) and part of the <a href="https://www.ricam.oeaw.ac.at/research/groups/group-scherzer/" target="_blank">Inverse Problems and Mathematical Imaging</a> group.</div>
-    </div>
-    <div class="item">
-        <div class="timespan">2012-2015</div>
+        <div class="timespan">2012-2016</div>
         <div class="pic">
             <div class="dot"></div>
             <div class="logo">
@@ -67,9 +72,9 @@ During winter term 2019, I was also an external lecturer at the <a href="https:/
             </div>
         </div>
         <div class="desc">
-            I earned a <b>PhD in Computer Science</b> with a focus on Computational Science from the <a href="https://www.univie.ac.at/" target="_blank">University of Vienna</a>, where I was supervised by <a href="https://www.csc.univie.ac.at/scherzer/" target="_blank">Univ-Prof Dr Otmar Scherzer</a>.
-            During my PhD studies I was a member of the Computational Science Center (<a href="https://www.csc.univie.ac.at/" target="_blank">CSC</a>) and of the <a href="https://www.csc.univie.ac.at/ik/" target="_blank">Vienna Graduate School in Computational Science</a>.
-            In my thesis I investigated <a href="http://othes.univie.ac.at/38207/" target="_blank">Optical flow on evolving manifolds with an application to the analysis of fluorescence microscopy data</a>.
+            I earned a <b>PhD in Computer Science</b> with a focus on Computer Vision from the <a href="https://www.univie.ac.at/" target="_blank">University of Vienna</a>, where I was supervised by <a href="https://www.csc.univie.ac.at/scherzer/" target="_blank">Univ-Prof Dr Otmar Scherzer</a>.
+            During my PhD studies I was a member of the Computational Science Center (<a href="https://www.csc.univie.ac.at/" target="_blank">CSC</a>).
+            In my thesis I investigated <a href="https://utheses.univie.ac.at/detail/38425/" target="_blank">Variational models of visual attention with a special focus on dynamic sequences</a>.
         </div>
     </div>
     <div class="item">
@@ -86,13 +91,3 @@ During winter term 2019, I was also an external lecturer at the <a href="https:/
 <p>Full CV available upon request.</p>
 </article>
 
-<article>
-<header><h1>Teaching & Outreach</h1></header>
-<p>In 2020, <a href="https://derndorfer.eu/" target="_blank">Christoph Derndorfer-Medosch</a> and I were interviewed by <a href="https://schatten.info/" target="_blank">Alexander Schatten</a> on the 'Zukunft Denken' podcast on the topic of <a href="https://podcast.zukunft-denken.eu/e/020-offene-systeme-teil-2-gesprach-mit-lukas-lang-und-christoph-derndorfer/" target="_blank">Offene Systeme</a> (in German).</p>
-
-<p>In 2019, jointly with Christoph Derndorfer-Medosch, I designed and held a new lecture course on <a href="https://free-and-open-technologies.github.io/" target="_blank">Free and Open Technologies</a> at TU Wien as part of the new master’s programme <a href="https://informatics.tuwien.ac.at/master/media-and-human-centered-computing/" target="_blank">Media and Human-Centered Computing</a>.  See also the official <a href="https://tiss.tuwien.ac.at/course/courseDetails.xhtml?dswid=2593&dsrid=293&courseNr=193067&semester=2019W" target="_blank">course page</a>.</p>
-
-<p>In 2018, jointly with <a href="https://yury-korolev.gitlab.io/" target="_blank">Yury Korolev</a>, I did a live demo of the <a href="https://waller-lab.github.io/DiffuserCam/" target="_blank">DiffuserCam</a> (lensless single exposure imaging using just a Raspberry Pi camera sensor and scotch tape) at the <a href="https://www.maths.cam.ac.uk/events/maths-public-open-day-cambridge-science-festival" target="_blank">Maths Public Open Day</a> at the <a href="https://www.festival.cam.ac.uk/" target="_blank">Cambridge Science Festival</a>.</p>
-
-<p>In 2018, jointly with <a href="https://mehrhardt.github.io/" target="_blank">Matthias Erhardt</a>, I held the lecture course <a href="http://www.damtp.cam.ac.uk/research/cia/inverse-problems" target="_blank">Inverse Problems</a> at the University of Cambridge during Lent term as part of the <a href="https://www.maths.cam.ac.uk/postgrad/part-iii/" target="_blank">Mathematical Tripos Part III</a>.</p>
-</article>
