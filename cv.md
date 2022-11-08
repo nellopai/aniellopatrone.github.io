@@ -78,14 +78,14 @@ My responsibilities included:
         </div>
     </div>
     <div class="item">
-        <div class="timespan">2005-2012</div>
+        <div class="timespan">2008-2011</div>
         <div class="pic">
             <div class="dot"></div>
             <div class="logo">
-                <img src="/assets/images/tuwien-logo.png" />
+                <img src="/assets/images/fed2-logo.png" />
             </div>
         </div>
-        <div class="desc">I obtained an <b>MSc in Computational Intelligence</b> from TU Wien. My master's thesis is on <a href="/assets/files/mscthesis.pdf" target="_blank">Image denoising with variational methods via graph cuts</a> and was primarily supervised by <a href="https://www.csc.univie.ac.at/scherzer/" target="_blank">Univ-Prof Dr Otmar Scherzer</a>. Prior to my master's studies I graduated with a BSc in Software & Information Engineering. In my bachelor's thesis I studied <a href="/assets/files/bscthesis.pdf" target="_blank">Metaheuristics for the multicast tree scheduling problem</a> and was supervised by <a href="https://www.dbai.tuwien.ac.at/staff/musliu/" target="_blank">Priv-Doz Dr Nysret Musliu</a> and by <a href="https://informatics.tuwien.ac.at/people/sandford-bessler" target="_blank">Priv-Doz Dr Sandford Bessler</a>.</div>
+        <div class="desc">I obtained an <b>MSc in Computer Science</b> from <a href="http://www.unina.it/en_GB/home" target="_blank">University Federico II of Naples</a>. My master's thesis was on "Uncalibrated eye-tracking system using Machine Learning for the prediction of the Point of Gaze" and was primarily supervised by <a href="https://www.docenti.unina.it/#!/professor/4652414e434553434f495347524f27534752464e4336365432364732373341/riferimenti" target="_blank">Univ-Prof Dr Francesco Isgrò</a>. Prior to my master's studies I graduated with a BSc in Computer Science.</div>
     </div>
 </div>
 <p>Full CV available upon request.</p>
