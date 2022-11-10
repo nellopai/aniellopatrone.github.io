@@ -1,12 +1,12 @@
 title: "Dr Aniello R. Patrone"
 author: "Dr Aniello R. Patrone"
 description: "Passionate about ai, code, and music"
-permalink: /blog/:year/:month/:day/:title/
+#permalink: /blog/:year/:month/:day/:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
 date_format: "%d %B, %Y"
 paginate: 5
-paginate_path: /blog/page/:num/
+#paginate_path: /blog/page/:num/
 
 # Layout
 show_social: true          # show site description and social links in the footer
