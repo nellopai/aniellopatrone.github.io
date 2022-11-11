@@ -11,7 +11,7 @@ layout: page
         <div class="pic">
             <div class="dot"></div>
             <div class="logo">
-                <img src="./assets/images/piur-logo.png" />
+                <img src="/assets/images/piur-logo.png" />
             </div>
         </div>
         <div class="desc">
