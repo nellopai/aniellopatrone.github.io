@@ -7,7 +7,7 @@ excerpt_separator: "\n\n\n"
 date_format: "%d %B, %Y"
 paginate: 5
 #paginate_path: /blog/page/:num/
-baseurl: aniellopatrone.github.io/
+baseurl: /aniellopatrone.github.io
 # Layout
 show_social: true          # show site description and social links in the footer
 show_excerpts: true        # show article excerpts on the home page
