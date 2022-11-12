@@ -34,4 +34,4 @@ Patents:
 * <strong> Anonymizing textual content in image training data</strong><br/>
     D. Albertini, M. Cerman, M. Schwarz, and <strong>A. R. Patrone</strong>.<br/>
     <em>Patent EP21 751 825</em>, 2022.
-    [<a hred="https://worldwide.espacenet.com/publicationDetails/biblio?CC=EP&NR=3955150A1&KC=A1&FT=D" target="_blank">Patent</a>]
+    [<a href="https://worldwide.espacenet.com/publicationDetails/biblio?CC=EP&NR=3955150A1&KC=A1&FT=D" target="_blank">Patent</a>]
