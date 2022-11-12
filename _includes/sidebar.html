@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="{{ "/assets/css/sidebar.css" | prepend:site.baseurl }}" media="screen and (min-width: 70em)">
+<link rel="stylesheet" href="{{ "/assets/css/sidebar.css" | relative_url }}" media="screen and (min-width: 70em)">
 <aside style="display: none">
   {% include menu.html menu=site.navigation text=true icon=true %}
   {% include menu.html menu=site.external text=true icon=true %}
