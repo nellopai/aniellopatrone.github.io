@@ -33,7 +33,7 @@ My responsibilities include:
             </div>
         </div>
         <div class="desc">
-I am <b>Senior Deep Learning Scientist</b> at <a href="https://piurimaging.com/" target="_blank">piur imaging GmbH</a> in Vienna, Austria.
+<b>Senior Deep Learning Scientist</b> at <a href="https://piurimaging.com/" target="_blank">piur imaging GmbH</a> in Vienna, Austria.
 My responsibilities include:
 <ul style="margin: 0;">
     <li style="margin: 0;">Research and Development of Deep Learning models for medical applications,</li>
