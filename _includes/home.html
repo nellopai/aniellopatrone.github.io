@@ -4,7 +4,7 @@
 I have several years of experience in deployment of AI software, project management, and lateral leadership.
 I empower people with insights from data.</p>
 
-<p>I am currently <b>Senior Deep Learning Scientist</b> at <a href="https://www.piurimaging.com">piur imaging GmbH</a> in Vienna, Austria.
+<p>I am currently <b>Lead AI Scientist</b> at <a href="https://www.piurimaging.com">piur imaging GmbH</a> in Vienna, Austria.
 I am currently focusing on creation of AI solutions for medical applications. The possibility to help others through my work is a strong motivator.
 Moreover, I coordinate the AI development and infrastructure.</p>
 
@@ -13,3 +13,16 @@ I have several years of professional research experience in mathematical image a
 
 <p>Get in touch with me by <a href="mailto:npatrone@protonmail.com" target="_blank">mail</a>, add me on <a href="https://www.linkedin.com/in/aniello-raffaele-patrone-71183127/?locale=en_US" target="_blank">LinkedIn</a>, or check out my code on <a href="https://github.com/nellopai" target="_blank">GitHub</a> to learn more!</p>
 </article>
+
+<article>
+    <header><h1>Latest posts</h1></header>
+    <ul class="archive">
+      {% for post in site.posts limit: 3 %}
+      <li style="list-style-type: none">
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d %b %Y" }}</time>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </article>
+  
