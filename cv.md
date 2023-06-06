@@ -6,6 +6,24 @@ layout: page
 
 <article>
 <div class="bibliography">
+<div class="item">
+        <div class="timespan">since 2023</div>
+        <div class="pic">
+            <div class="dot"></div>
+            <div class="logo">
+                <img src="/assets/images/piur-logo.png" />
+            </div>
+        </div>
+        <div class="desc">
+I am <b>Lead AI Scientist</b> at <a href="https://piurimaging.com/" target="_blank">piur imaging GmbH</a> in Vienna, Austria.
+My responsibilities include:
+<ul style="margin: 0;">
+    <li style="margin: 0;">Leading Research and Development of Deep Learning models for medical applications,</li>
+    <li style="margin: 0;">Planning design and development of Deep Learning workflows (MLOps),</li>
+    <li style="margin: 0;">Coaching young ai engineers.</li>
+</ul>
+        </div>
+    </div>
     <div class="item">
         <div class="timespan">since 2021</div>
         <div class="pic">
