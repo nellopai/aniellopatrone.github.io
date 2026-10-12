@@ -1,4 +1,5 @@
 ---
+description: "Career and education of Aniello R. Patrone: Lead AI Scientist, PhD in computer science with a focus on computer vision."
 title: "Biography"
 permalink: "/cv/"
 layout: page
@@ -11,7 +12,7 @@ layout: page
         <div class="pic">
             <div class="dot"></div>
             <div class="logo">
-                <img src="/assets/images/piur-logo.png" />
+                <img src="/assets/images/piur-logo.png" alt="piur imaging logo" width="201" height="102" loading="lazy" decoding="async">
             </div>
         </div>
         <div class="desc">
@@ -29,7 +30,7 @@ My responsibilities include:
         <div class="pic">
             <div class="dot"></div>
             <div class="logo">
-                <img src="/assets/images/piur-logo.png" />
+                <img src="/assets/images/piur-logo.png" alt="piur imaging logo" width="201" height="102" loading="lazy" decoding="async">
             </div>
         </div>
         <div class="desc">
@@ -48,7 +49,7 @@ My responsibilities include:
         <div class="pic">
             <div class="dot"></div>
             <div class="logo">
-                <img src="/assets/images/anyline-logo.png" />
+                <img src="/assets/images/anyline-logo.png" alt="Anyline logo" width="367" height="137" loading="lazy" decoding="async">
             </div>
         </div>
         <div class="desc">
@@ -67,7 +68,7 @@ My responsibilities included:
         <div class="pic">
             <div class="dot"></div>
             <div class="logo">
-                <img src="/assets/images/kiwi-logo.png" />
+                <img src="/assets/images/kiwi-logo.png" alt="KiwiSecurity logo" width="1417" height="337" loading="lazy" decoding="async">
             </div>
         </div>
         <div class="desc"> 
@@ -86,7 +87,7 @@ My responsibilities included:
         <div class="pic">
             <div class="dot"></div>
             <div class="logo">
-                <img src="/assets/images/univie-logo.png" />
+                <img src="/assets/images/univie-logo.png" alt="University of Vienna seal" width="498" height="497" loading="lazy" decoding="async">
             </div>
         </div>
         <div class="desc">
@@ -100,7 +101,7 @@ My responsibilities included:
         <div class="pic">
             <div class="dot"></div>
             <div class="logo">
-                <img src="/assets/images/fed2-logo.png" />
+                <img src="/assets/images/fed2-logo.png" alt="University of Naples Federico II seal" width="225" height="224" loading="lazy" decoding="async">
             </div>
         </div>
         <div class="desc">
@@ -118,7 +119,7 @@ My responsibilities included:
         <div class="pic">
             <div class="dot"></div>
             <div class="logo">
-                <img src="/assets/images/fed2-logo.png" />
+                <img src="/assets/images/fed2-logo.png" alt="University of Naples Federico II seal" width="225" height="224" loading="lazy" decoding="async">
             </div>
         </div>
         <div class="desc">I obtained an <b>MSc in Computer Science</b> from <a href="http://www.unina.it/en_GB/home" target="_blank">University Federico II of Naples</a>. My master's thesis was on "Uncalibrated eye-tracking system using Machine Learning for the prediction of the Point of Gaze" and was primarily supervised by <a href="https://www.docenti.unina.it/#!/professor/4652414e434553434f495347524f27534752464e4336365432364732373341/riferimenti" target="_blank">Univ-Prof Dr Francesco Isgrò</a>. Prior to my master's studies I graduated with a BSc in Computer Science.</div>

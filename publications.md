@@ -1,4 +1,5 @@
 ---
+description: "Scientific publications of Aniello R. Patrone on computer vision and mathematical image analysis."
 title: "Publications"
 permalink: "/publications/"
 layout: page

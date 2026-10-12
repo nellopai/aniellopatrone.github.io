@@ -3,6 +3,8 @@ author: "Dr Aniello R. Patrone"
 description: "Passionate about AI, code, and music"
 #permalink: /blog/:year/:month/:day/:title/
 lang: "en"
+url: "https://www.aniellopatrone.eu"
+image: /assets/images/avatar2.jpg   # default preview image for shared links
 excerpt_separator: "\n\n\n"
 date_format: "%d %B, %Y"
 paginate: 5
@@ -16,13 +18,13 @@ show_sidebar: false        # show a sidebar instead of the usual header
 
 # Menu
 navigation:
-  - {file: "index.html", icon: home}
+  - {file: "index.html", title: "Home", icon: home}
   - {file: "cv.md", icon: scroll}
   - {file: "publications.md", icon: scroll}
 
 external:                  # see http://fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:npatrone@protonmail.com"}
-  - {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/aniello-raffaele-patrone-71183127/?locale=en_US"}
+  - {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/aniello-raffaele-patrone-71183127/"}
   # - {title: Twitter, icon: twitter, url: "https://twitter.com/lukaslang"}
   - {title: Github, icon: github, url: "https://github.com/nellopai"}
   - {title: Subscribe, icon: rss, url: "/feed.xml"}
@@ -34,4 +36,14 @@ comments:
 plugins:
  - jekyll-feed
  - jekyll-paginate
- 
+ - jekyll-seo-tag
+ - jekyll-sitemap
+
+# used by jekyll-seo-tag for structured data (schema.org Person)
+social:
+  type: Person
+  name: "Aniello R. Patrone"
+  links:
+    - "https://github.com/nellopai"
+    - "https://www.linkedin.com/in/aniello-raffaele-patrone-71183127/"
+    - "https://scholar.google.at/citations?hl=en&user=TE0GJuMAAAAJ"

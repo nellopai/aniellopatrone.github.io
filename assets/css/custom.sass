@@ -1,7 +1,7 @@
 ---
 ---
 
-@import index, font, basic, layout
+@import index
 
 .biography
     margin: 0
@@ -79,3 +79,40 @@
 .pub_image > img
     margin: 0
     padding: 0
+
+// header helpers (replace former inline styles)
+.header-main
+    display: grid
+
+.tagline
+    margin: 0
+
+.legal
+    font-size: small
+
+// accessibility: skip link, visible only on keyboard focus
+.skip-link
+    position: absolute
+    left: -9999px
+
+.skip-link:focus
+    left: 1rem
+    top: 1rem
+    z-index: 100
+    padding: .4em .8em
+    background: $light
+    color: $dark
+    border-radius: 2px
+
+// dark mode: logos keep a light backing, timeline dots match the background
+@media (prefers-color-scheme: dark)
+    .logo
+        background: #fff
+        padding: .3em
+        border-radius: 4px
+        box-sizing: border-box
+    .pic
+        border-left-color: rgba(255, 255, 255, .3)
+    .dot
+        background-color: rgba(255, 255, 255, .55)
+        border-color: $dark

@@ -6,9 +6,9 @@ All material, including texts, images, and layouts, are subject to copyright.
 
 1. Install [prerequisites](https://jekyllrb.com/docs/installation/macos/) using Homebrew
 2. Install jekyll and bundler gems
-3. If jekyll plugins are missing, install them (see ```_config.yml```) via
+3. Install the gems listed in the `Gemfile` (this includes the Jekyll plugins used in `_config.yml`) via
 ```bash
-gem install jekyll-paginate
+bundle install
 ```
 4. Check out the git repository
 5. Run
@@ -19,7 +19,7 @@ bundle exec jekyll serve --force_polling
 
 ## To-do
 
-* Adjust logo background to work with dark mode.
+* (done) Logo backing for dark mode — see `custom.sass`.
 
 ## Acknowledgements
 
