@@ -1,5 +1,5 @@
 ---
-description: "Scientific publications of Aniello R. Patrone on computer vision and mathematical image analysis."
+description: "Papers, patent and conference presentations of Aniello R. Patrone on computer vision and mathematical image analysis."
 title: "Publications"
 permalink: "/publications/"
 layout: page
@@ -36,3 +36,22 @@ Patents:
     D. Albertini, M. Cerman, M. Schwarz, and <strong>A. R. Patrone</strong>.<br/>
     <em>Patent EP21 751 825</em>, 2022.
     [<a href="https://worldwide.espacenet.com/publicationDetails/biblio?CC=EP&NR=3955150A1&KC=A1&FT=D" target="_blank">Patent</a>]
+
+Conference presentations:
+
+* <strong>Document scanning from R&amp;D to a real product at Anyline GmbH</strong><br/>
+    Keynote speech and published abstract.<br/>
+    <em>4th Global Summit and Expo on Multimedia and Artificial Intelligence</em>, Rome, Italy, 19&ndash;21 July 2018
+
+* <strong>Variational saliency maps for dynamic image sequences</strong><br/>
+    Published abstract and poster presentation.<br/>
+    <em>ECEM 2015</em>, Vienna, Austria, 16&ndash;21 August 2015
+
+* <strong>Optical flow decomposition with time regularization</strong><br/>
+    <em>SIAM Conference on Imaging Science (SIAM-IS14)</em>, Hong Kong, China, 12&ndash;14 May 2014
+
+* <strong>Optical flow with oscillating pattern</strong> (with Prof. O. Scherzer)<br/>
+    <em>Fgp'13, 16th Conference on Optimization</em>, Krakow, Poland, 23&ndash;27 September 2013
+
+* <strong>Optical flow with time regularization and oscillating pattern</strong><br/>
+    <em>Visual Attention Meeting 2013</em>, University of Vienna, Austria, 10&ndash;12 July 2013
