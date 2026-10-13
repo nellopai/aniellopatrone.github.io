@@ -148,7 +148,8 @@ ref: cv
 <h2>Kenntnisse</h2>
 <ul class="skills">
   <li><b>Deep Learning:</b> PyTorch, TensorFlow</li>
-  <li><b>MLOps:</b> Airflow, MLflow</li>
+  <li><b>MLOps:</b> ClearML, Airflow, MLflow</li>
+  <li><b>Generative KI und KI-gestützte Entwicklung:</b> Anthropic Claude, Claude Code</li>
   <li><b>Maschinelles Lernen:</b> scikit-learn, OpenCV, LibSVM, Weka, RapidMiner</li>
   <li><b>Bildverarbeitung auf CPU und GPU:</b> OpenCV, MATLAB, IPP, PCL</li>
   <li><b>Programmiersprachen:</b> Python, C, C++, MATLAB, Java, Objective-C</li>
@@ -156,6 +157,12 @@ ref: cv
   <li><b>Datenbanken:</b> MySQL, PostgreSQL, Oracle (mit Geodaten-Modul)</li>
   <li><b>Werkzeuge:</b> Git, Svn, Jira, CMake, Doxygen, Visual Studio, UML</li>
   <li><b>Betriebssysteme:</b> GNU/Linux, Windows, macOS</li>
+</ul>
+</section>
+<section>
+<h2>Zertifikate</h2>
+<ul class="skills">
+  <li><b>Claude Code in Action</b>, Anthropic</li>
 </ul>
 </section>
 <section>
