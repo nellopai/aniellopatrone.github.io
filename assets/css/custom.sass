@@ -124,15 +124,27 @@ body > header > nav a
         font-weight: $font-weight + 200
         border-bottom-color: $link-color
 
-// language switch: same height as the menu, framed so it reads as a toggle
-body > header > nav a.lang-switch
-    color: inherit
-    font-size: .85em
-    border: 1px solid reduce(30)
-    border-radius: 3px
-    padding: .15em .6em
-    &:hover, &:focus-visible
-        border-color: $link-color
+// language toggle "EN | DE", top right of the header, apart from the page menu
+.header-main
+    width: 100%
+
+.title-row
+    display: flex
+    align-items: baseline
+    justify-content: space-between
+    gap: 1em
+
+.lang-toggle
+    font-size: .8em
+    letter-spacing: .05em
+    white-space: nowrap
+    > *
+        padding: 0 .5em
+    > * + *
+        border-left: 1px solid reduce(40)
+    span
+        font-weight: $font-weight + 200
+    a
         color: $link-color
 
 // "this page is also available in ..." banner (shown by script, never a redirect)
