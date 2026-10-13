@@ -36,6 +36,7 @@ layout: page
   <div class="timespan">2024&ndash;2026</div>
   <div class="pic">
     <div class="dot"></div>
+    <div class="logo"><img src="/assets/images/imc-logo.png" alt="IMC Krems logo" width="441" height="453" loading="lazy" decoding="async"></div>
   </div>
   <div class="desc">
     <b>Lecturer</b> (part-time) at <a href="https://www.imc.ac.at" target="_blank" rel="noopener">IMC University of Applied Sciences Krems</a>, Austria.

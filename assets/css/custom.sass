@@ -100,6 +100,19 @@ main section h2
 .legal
     font-size: small
 
+// main navigation: make Home / Biography / Publications look clickable
+body > header > nav a
+    color: $link-color
+    padding: .25em 0
+    border-bottom: 2px solid transparent
+    &:hover, &:focus-visible
+        text-decoration: none
+        border-bottom-color: currentColor
+    &.selected
+        color: inherit
+        font-weight: $font-weight + 200
+        border-bottom-color: $link-color
+
 // accessibility: skip link, visible only on keyboard focus
 .skip-link
     position: absolute
