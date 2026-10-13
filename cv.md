@@ -147,16 +147,17 @@ ref: cv
 <section>
 <h2>Skills</h2>
 <ul class="skills">
-  <li><b>Deep learning:</b> PyTorch, TensorFlow</li>
-  <li><b>MLOps:</b> ClearML, Airflow, MLflow</li>
+  <li><b>Deep learning:</b> PyTorch, torchvision, Albumentations, TensorFlow</li>
+  <li><b>Computer vision and medical imaging:</b> OpenCV, MONAI, pydicom, DICOM</li>
+  <li><b>Federated learning:</b> NVIDIA FLARE</li>
+  <li><b>Model deployment:</b> ONNX, ONNX Runtime, TensorRT, OpenVINO</li>
+  <li><b>MLOps:</b> ClearML, MLflow, DVC, Airflow, TensorBoard</li>
+  <li><b>Machine learning and data:</b> scikit-learn, NumPy, Pandas, Pydantic, Jupyter</li>
   <li><b>Generative AI and AI-assisted development:</b> Anthropic Claude, Claude Code</li>
-  <li><b>Machine learning:</b> scikit-learn, OpenCV, LibSVM, Weka, RapidMiner</li>
-  <li><b>Image processing on CPU and GPU:</b> OpenCV, MATLAB, IPP, PCL</li>
-  <li><b>Programming languages:</b> Python, C, C++, MATLAB, Java, Objective-C</li>
-  <li><b>Libraries:</b> OpenCV, NumPy, Pandas, Intel IPP, Google Test, PCL, LAPACK, BLAS, OpenGL</li>
-  <li><b>Databases:</b> MySQL, PostgreSQL, Oracle (with geospatial module)</li>
-  <li><b>Tools:</b> Git, Svn, Jira, CMake, Doxygen, Visual Studio, UML</li>
-  <li><b>Operating systems:</b> GNU/Linux, Windows, macOS</li>
+  <li><b>Programming languages:</b> Python, C++, C</li>
+  <li><b>Engineering tools:</b> Git, Docker, pytest, CMake, Linux, CI/CD</li>
+  <li><b>Databases:</b> PostgreSQL, MySQL</li>
+  <li><b>Ways of working:</b> Scrum (former Scrum Master), Agile, Jira</li>
 </ul>
 </section>
 <section>

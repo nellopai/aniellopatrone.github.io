@@ -147,16 +147,17 @@ ref: cv
 <section>
 <h2>Kenntnisse</h2>
 <ul class="skills">
-  <li><b>Deep Learning:</b> PyTorch, TensorFlow</li>
-  <li><b>MLOps:</b> ClearML, Airflow, MLflow</li>
+  <li><b>Deep Learning:</b> PyTorch, torchvision, Albumentations, TensorFlow</li>
+  <li><b>Computer Vision und medizinische Bildgebung:</b> OpenCV, MONAI, pydicom, DICOM</li>
+  <li><b>Federated Learning:</b> NVIDIA FLARE</li>
+  <li><b>Modell-Deployment:</b> ONNX, ONNX Runtime, TensorRT, OpenVINO</li>
+  <li><b>MLOps:</b> ClearML, MLflow, DVC, Airflow, TensorBoard</li>
+  <li><b>Maschinelles Lernen und Daten:</b> scikit-learn, NumPy, Pandas, Pydantic, Jupyter</li>
   <li><b>Generative KI und KI-gestützte Entwicklung:</b> Anthropic Claude, Claude Code</li>
-  <li><b>Maschinelles Lernen:</b> scikit-learn, OpenCV, LibSVM, Weka, RapidMiner</li>
-  <li><b>Bildverarbeitung auf CPU und GPU:</b> OpenCV, MATLAB, IPP, PCL</li>
-  <li><b>Programmiersprachen:</b> Python, C, C++, MATLAB, Java, Objective-C</li>
-  <li><b>Bibliotheken:</b> OpenCV, NumPy, Pandas, Intel IPP, Google Test, PCL, LAPACK, BLAS, OpenGL</li>
-  <li><b>Datenbanken:</b> MySQL, PostgreSQL, Oracle (mit Geodaten-Modul)</li>
-  <li><b>Werkzeuge:</b> Git, Svn, Jira, CMake, Doxygen, Visual Studio, UML</li>
-  <li><b>Betriebssysteme:</b> GNU/Linux, Windows, macOS</li>
+  <li><b>Programmiersprachen:</b> Python, C++, C</li>
+  <li><b>Entwicklungswerkzeuge:</b> Git, Docker, pytest, CMake, Linux, CI/CD</li>
+  <li><b>Datenbanken:</b> PostgreSQL, MySQL</li>
+  <li><b>Arbeitsweise:</b> Scrum (ehemaliger Scrum Master), Agile, Jira</li>
 </ul>
 </section>
 <section>
