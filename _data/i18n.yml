@@ -1,0 +1,22 @@
+# Interface texts per language. Page content lives in the pages themselves
+# (English at /, German under /de/); pages with the same "ref" are translations.
+en:
+  lang_name: "English"
+  skip: "Skip to content"
+  nav_main: "Main"
+  nav_social: "Contact and social links"
+  nav_footer: "Footer links"
+  portrait: "Portrait of"
+  banner_text: "This page is also available in English."
+  banner_link: "View in English"
+  banner_close: "Close"
+de:
+  lang_name: "Deutsch"
+  skip: "Zum Inhalt springen"
+  nav_main: "Hauptmenü"
+  nav_social: "Kontakt und soziale Netzwerke"
+  nav_footer: "Links in der Fußzeile"
+  portrait: "Porträt von"
+  banner_text: "Diese Seite gibt es auch auf Deutsch."
+  banner_link: "Auf Deutsch ansehen"
+  banner_close: "Schließen"

@@ -101,6 +101,17 @@ main section h2
     font-size: small
 
 // main navigation: make Home / Biography / Publications look clickable
+body > header > nav
+    display: flex
+    flex-wrap: wrap
+    align-items: center
+    min-width: 0
+    max-width: calc(100% + 2em)
+
+@media (max-width: 32em)
+    body > header > nav a
+        margin: .5em .7em
+
 body > header > nav a
     color: $link-color
     padding: .25em 0
@@ -112,6 +123,43 @@ body > header > nav a
         color: inherit
         font-weight: $font-weight + 200
         border-bottom-color: $link-color
+
+// language switch: same height as the menu, framed so it reads as a toggle
+body > header > nav a.lang-switch
+    color: inherit
+    font-size: .85em
+    border: 1px solid reduce(30)
+    border-radius: 3px
+    padding: .15em .6em
+    &:hover, &:focus-visible
+        border-color: $link-color
+        color: $link-color
+
+// "this page is also available in ..." banner (shown by script, never a redirect)
+.lang-banner
+    display: flex
+    flex-wrap: wrap
+    align-items: center
+    justify-content: center
+    gap: .4em 1em
+    padding: .6em 3em .6em 1em
+    position: relative
+    background: rgba($link-color, .12)
+    font-size: .9em
+    &[hidden]
+        display: none
+    button
+        position: absolute
+        right: .6em
+        top: 50%
+        transform: translateY(-50%)
+        background: none
+        border: 0
+        font-size: 1.4em
+        line-height: 1
+        color: inherit
+        cursor: pointer
+        padding: .1em .3em
 
 // accessibility: skip link, visible only on keyboard focus
 .skip-link

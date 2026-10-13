@@ -25,3 +25,12 @@ bundle exec jekyll serve --force_polling
 
 This page is based on the [Contrast](https://github.com/niklasbuschmann/contrast) Jekyll theme by Niklas Buschmann, which is [public domain](http://unlicense.org/).
 Many thanks, Niklas, for this headstart.
+
+## Languages
+
+The site is bilingual. English pages live at the root, German pages under `de/`.
+Pages that translate each other share the same `ref` in their front matter
+(`home`, `cv`, `publications`); the layout uses it to add `hreflang` tags, the
+language switch in the menu and the "also available in …" banner. Menu labels
+are in `navigation` / `navigation_de` in `_config.yml`, other interface texts in
+`_data/i18n.yml`. When you change a page, update its translation too.

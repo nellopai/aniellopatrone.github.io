@@ -3,11 +3,13 @@ description: "Career and education of Aniello R. Patrone: Lead AI Scientist at p
 title: "Biography"
 permalink: "/cv/"
 layout: page
+lang: en
+ref: cv
 ---
 <section>
 <div class="biography">
 <div class="item">
-  <div class="timespan">2020&ndash;today</div>
+  <div class="timespan">2021&ndash;today</div>
   <div class="pic">
     <div class="dot"></div>
     <div class="logo"><img src="/assets/images/piur-logo.png" alt="piur imaging logo" width="201" height="102" loading="lazy" decoding="async"></div>
@@ -22,7 +24,7 @@ layout: page
       </ul>
     </div>
     <div class="role">
-      <b>Senior Deep Learning Scientist</b> (2020&ndash;2023) at piur imaging GmbH.
+      <b>Senior Deep Learning Scientist</b> (2021&ndash;2023) at piur imaging GmbH.
       <ul>
         <li>Researched and developed deep learning models for object tracking estimation and for thyroid and carotid segmentation</li>
         <li>Created a DICOM server-client system</li>

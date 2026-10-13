@@ -3,6 +3,8 @@ description: "Papers, patent and conference presentations of Aniello R. Patrone 
 title: "Publications"
 permalink: "/publications/"
 layout: page
+lang: en
+ref: publications
 ---
 
 See my <a href="https://scholar.google.at/citations?hl=en&user=TE0GJuMAAAAJ" target="_blank" rel="noopener">Google Scholar</a> page for a full list.

@@ -1,10 +1,25 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+{%- assign lang = page.lang | default: site.lang | default: 'en' -%}
+{%- assign t = site.data.i18n[lang] -%}
+{%- assign other = nil -%}
+{%- if page.ref -%}
+  {%- assign versions = site.pages | where: "ref", page.ref -%}
+  {%- for v in versions -%}{%- if v.lang != lang -%}{%- assign other = v -%}{%- endif -%}{%- endfor -%}
+{%- endif -%}
+<html lang="{{ lang }}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="color-scheme" content="light dark">
   {% seo %}
+  {%- if page.ref %}
+  {%- for v in versions %}
+  <link rel="alternate" hreflang="{{ v.lang }}" href="{{ v.url | absolute_url }}">
+  {%- if v.lang == 'en' %}
+  <link rel="alternate" hreflang="x-default" href="{{ v.url | absolute_url }}">
+  {%- endif %}
+  {%- endfor %}
+  {%- endif %}
   <link rel="icon" type="image/png" href="{{ '/assets/images/favicon.png' | relative_url }}">
   <link rel="apple-touch-icon" href="{{ '/assets/images/favicon.png' | relative_url }}">
   {% if site.show_frame %}
@@ -24,27 +39,34 @@
   {% if site.comments.isso_domain and page.layout == "post" %}<script data-isso="https://{{ site.comments.isso_domain }}" src="//{{ site.comments.isso_domain }}/js/embed.min.js"></script>{% endif %}
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
-
+  <a class="skip-link" href="#main">{{ t.skip }}</a>
+{% if other %}{% assign ot = site.data.i18n[other.lang] %}
+  <div class="lang-banner" id="lang-banner" lang="{{ other.lang }}" hidden>
+    <span>{{ ot.banner_text }}</span>
+    <a href="{{ other.url | relative_url }}" hreflang="{{ other.lang }}" data-lang="{{ other.lang }}">{{ ot.banner_link }}</a>
+    <button type="button" aria-label="{{ ot.banner_close }}">&times;</button>
+  </div>
+{% endif %}
   {% if site.show_sidebar or site.sidebar %}{% include sidebar.html %}{% endif %}
 
-  {% if site.navigation %}
-    {% assign pages = site.navigation %}
+  {% if lang == 'de' %}
+    {% assign pages = site.navigation_de %}
   {% else %}
-    {% assign pages = site.pages | where_exp: "item", "item.title and item.sitemap != false" | sort: "order" %}
+    {% assign pages = site.navigation %}
   {% endif %}
+  {% capture langlink %}{% if other %}<a class="lang-switch" href="{{ other.url | relative_url }}" hreflang="{{ other.lang }}" lang="{{ other.lang }}" data-lang="{{ other.lang }}">{{ site.data.i18n[other.lang].lang_name }}</a>{% endif %}{% endcapture %}
 
   <div class="avatar">
-    <img src="{{ '/assets/images/avatar2.jpg' | relative_url }}" alt="Portrait of {{ site.author | escape }}" width="200" height="212" decoding="async">
+    <img src="{{ '/assets/images/avatar2.jpg' | relative_url }}" alt="{{ t.portrait }} {{ site.author | escape }}" width="200" height="212" decoding="async">
   </div>
 
   <header>
     <div class="header-main">
       <a href="{{ '/' | relative_url }}" class="title">{{ site.title | escape }}</a>
       <p class="tagline">{{ site.description | default: site.title }}</p>
-      {% include menu.html menu=site.external icon=true label="Contact and social links" %}
+      {% include menu.html menu=site.external icon=true label=t.nav_social %}
     </div>
-    {% include menu.html menu=pages text=true label="Main" %}
+    {% include menu.html menu=pages text=true label=t.nav_main extra=langlink %}
   </header>
 
   <main id="main">
@@ -54,8 +76,36 @@
   <footer>
     <div class="legal" lang="de">Offenlegung gemäß §25 Mediengesetz.<br>Medieninhaber und für den Inhalt verantwortlich:<br>Dr Aniello R Patrone, Wien</div>
     {% if site.show_social %}
-    {% include menu.html menu=site.external icon=true label="Footer links" %}
+    {% include menu.html menu=site.external icon=true label=t.nav_footer %}
     {% endif %}
   </footer>
+{% if other %}
+  <script>
+  (function () {
+    // Remember an explicit language choice, so the banner never nags.
+    function remember(l) { try { localStorage.setItem('lang-pref', l); } catch (e) {} }
+    document.querySelectorAll('a[data-lang]').forEach(function (a) {
+      a.addEventListener('click', function () { remember(a.getAttribute('data-lang')); });
+    });
+    var banner = document.getElementById('lang-banner');
+    var here = '{{ lang }}', alt = '{{ other.lang }}', pref = null;
+    try { pref = localStorage.getItem('lang-pref'); } catch (e) {}
+    if (!pref) {
+      // first browser language that the site offers decides
+      var langs = navigator.languages || [navigator.language || ''];
+      for (var i = 0; i < langs.length; i++) {
+        var code = (langs[i] || '').slice(0, 2).toLowerCase();
+        if (code === 'en' || code === 'de') { pref = code; break; }
+      }
+    }
+    if (pref !== alt) return;
+    banner.hidden = false;
+    banner.querySelector('button').addEventListener('click', function () {
+      banner.hidden = true;
+      remember(here);
+    });
+  })();
+  </script>
+{% endif %}
 </body>
 </html>

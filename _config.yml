@@ -17,9 +17,14 @@ show_sidebar: false        # show a sidebar instead of the usual header
 
 # Menu
 navigation:
-  - {file: "index.html", title: "Home", icon: home}
-  - {file: "cv.md", icon: scroll}
-  - {file: "publications.md", icon: scroll}
+  - {url: "/", title: "Home", icon: home}
+  - {url: "/cv/", title: "Biography", icon: scroll}
+  - {url: "/publications/", title: "Publications", icon: scroll}
+
+navigation_de:
+  - {url: "/de/", title: "Startseite"}
+  - {url: "/de/cv/", title: "Werdegang"}
+  - {url: "/de/publications/", title: "Publikationen"}
 
 external:                  # see http://fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:npatrone@protonmail.com"}
