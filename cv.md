@@ -1,5 +1,5 @@
 ---
-description: "Career and education of Aniello R. Patrone: Lead AI Scientist at piur imaging, lecturer at IMC Krems, PhD in computer vision from the University of Vienna."
+description: "Career and education of Aniello R. Patrone: Lead AI Scientist at piur imaging, PhD in computer vision from the University of Vienna."
 title: "Biography"
 permalink: "/cv/"
 layout: page
@@ -33,15 +33,15 @@ layout: page
   </div>
 </div>
 <div class="item">
-  <div class="timespan">2024&ndash;today</div>
+  <div class="timespan">2024&ndash;2026</div>
   <div class="pic">
     <div class="dot"></div>
   </div>
   <div class="desc">
     <b>Lecturer</b> (part-time) at <a href="https://www.imc.ac.at" target="_blank" rel="noopener">IMC University of Applied Sciences Krems</a>, Austria.
     <ul>
-      <li>Teaching the Data Mining course</li>
-      <li>Teaching &ldquo;Image Processing and Visual Computing in Biology and Medicine&rdquo; in the Bioinformatics Bachelor programme, combining classical image processing with deep learning</li>
+      <li>Taught the Data Mining course</li>
+      <li>Taught &ldquo;Image Processing and Visual Computing in Biology and Medicine&rdquo; in the Bioinformatics Bachelor programme, combining classical image processing with deep learning</li>
     </ul>
   </div>
 </div>
