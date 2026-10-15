@@ -1,19 +1,12 @@
 title: "Dr Aniello R. Patrone"
 author: "Dr Aniello R. Patrone"
 description: "Lead AI Scientist · Computer Vision & Deep Learning"
-#permalink: /blog/:year/:month/:day/:title/
 lang: "en"
 url: "https://www.aniellopatrone.eu"
-excerpt_separator: "\n\n\n"
-date_format: "%d %B, %Y"
-paginate: 5
-#paginate_path: /blog/page/:num/
 #baseurl: /aniellopatrone.github.io
 # Layout
 show_social: true          # show site description and social links in the footer
-show_excerpts: true        # show article excerpts on the home page
 show_frame: false           # adds a gray frame to the site
-show_sidebar: false        # show a sidebar instead of the usual header
 
 # Menu
 navigation:
@@ -31,13 +24,7 @@ external:                  # see http://fontawesome.com/icons
   - {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/aniello-raffaele-patrone-71183127/"}
   - {title: Github, icon: github, url: "https://github.com/nellopai"}
 
-comments:
-#  disqus_shortname: ""    # see https://disqus.com/
-#  isso_domain: ""         # see https://posativ.org/isso/
-
 plugins:
- - jekyll-feed
- - jekyll-paginate
  - jekyll-seo-tag
  - jekyll-sitemap
 
@@ -54,4 +41,9 @@ social:
 defaults:
   - scope: {path: ""}
     values:
-      image: /assets/images/avatar2.jpg
+      image: /assets/images/og-image.jpg
+
+# repo files that are not part of the site
+exclude:
+  - README.md
+  - UNLICENSE.txt

@@ -1,12 +1,10 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 4.2.0"
+# Same Jekyll and plugin versions as the GitHub Pages build of the live site
+gem "github-pages", group: :jekyll_plugins
 
-group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.12"
-  gem "jekyll-paginate"
-  gem "jekyll-seo-tag"
-  gem "jekyll-sitemap"
-end
+gem "webrick", "~> 1.8"
 
-gem "webrick", "~> 1.7"
+# Windows: timezone data and file watching for `jekyll serve`
+gem "tzinfo-data", platforms: [:mingw, :x64_mingw, :mswin]
+gem "wdm", "~> 0.1", platforms: [:mingw, :x64_mingw, :mswin]

@@ -29,14 +29,6 @@
   {% endif %}
   <link rel="stylesheet" href="{{ '/assets/css/classes.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
-  {% feed_meta %}
-  {% if page.mathjax or site.mathjax %}
-  <link rel="stylesheet" href="{{ '/assets/katex/katex.min.css' | relative_url }}">
-  <script defer src="{{ '/assets/katex/katex.min.js' | relative_url }}"></script>
-  <script defer src="{{ '/assets/katex/contrib/auto-render.min.js' | relative_url }}" onload="renderMathInElement(document.body)"></script>
-  {% endif %}
-  {% if site.comments.disqus_shortname and page.layout == "post" %}<script src="//{{ site.comments.disqus_shortname }}.disqus.com/embed.js" async></script>{% endif %}
-  {% if site.comments.isso_domain and page.layout == "post" %}<script data-isso="https://{{ site.comments.isso_domain }}" src="//{{ site.comments.isso_domain }}/js/embed.min.js"></script>{% endif %}
 </head>
 <body>
   <a class="skip-link" href="#main">{{ t.skip }}</a>
@@ -47,8 +39,6 @@
     <button type="button" aria-label="{{ ot.banner_close }}">&times;</button>
   </div>
 {% endif %}
-  {% if site.show_sidebar or site.sidebar %}{% include sidebar.html %}{% endif %}
-
   {% if lang == 'de' %}
     {% assign pages = site.navigation_de %}
   {% else %}

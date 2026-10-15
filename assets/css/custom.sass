@@ -50,6 +50,23 @@
 .role + .role
     margin-top: .8em
 
+// narrow screens: date on its own line, then logo column and description
+@media (max-width: 32em)
+    .item
+        grid-template-columns: 3.5em 1fr
+    .timespan
+        grid-column: 1 / -1
+        width: auto
+        margin: .9em 0 .3em
+        text-align: left
+        font-weight: $font-weight + 200
+    .pic, .desc
+        grid-column: auto
+    .logo
+        width: 80%
+    .desc
+        padding-left: .6em
+
 main section h2
     font-size: 1.25em
     margin: 1.6em 0 .4em
@@ -57,7 +74,7 @@ main section h2
 .avatar
     padding: 1.5em
     background: #2a2c33
-    background-image: url('/assets/images/waranont-joe-acJmkKwEMR4-unsplash.jpg')
+    background-image: url('/assets/images/header-bg.webp')
     background-size: cover
     background-repeat: no-repeat
 
@@ -71,24 +88,6 @@ main section h2
     border-radius: 100px
     border: 2px solid white
     margin: 0
-
-.publication
-    display: grid
-    grid-template-columns: repeat(10, 1fr)
-    padding-bottom: 1em
-
-.pub_text
-    grid-column: span 8
-    
-.pub_image
-    grid-column: span 2
-    width: 75%
-    margin-left: auto
-    margin-right: auto
-    
-.pub_image > img
-    margin: 0
-    padding: 0
 
 // header helpers (replace former inline styles)
 .header-main
