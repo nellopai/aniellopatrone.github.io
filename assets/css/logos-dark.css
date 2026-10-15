@@ -1,0 +1,37 @@
+/* Timeline logos: keep them readable and consistent in dark mode.
+   All CV logos are named *-logo.png, so no markup changes are needed. */
+
+@media (prefers-color-scheme: dark) {
+  img[src*="-logo"] {
+    /* Light tile: turns the white PNG backgrounds into a deliberate element */
+    background: #f4f6f8;
+    padding: 6px;
+    border-radius: 8px;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.08);
+    box-sizing: border-box;
+    object-fit: contain;
+    /* Slightly dim so the tiles don't glare against the dark page */
+    filter: brightness(0.92);
+    transition: filter 0.2s ease;
+  }
+
+  img[src*="-logo"]:hover {
+    filter: none;
+  }
+}
+
+/* Same rules for a manual theme toggle, if the site uses one.
+   Harmless if no element ever gets data-theme="dark". */
+[data-theme="dark"] img[src*="-logo"] {
+  background: #f4f6f8;
+  padding: 6px;
+  border-radius: 8px;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.08);
+  box-sizing: border-box;
+  object-fit: contain;
+  filter: brightness(0.92);
+  transition: filter 0.2s ease;
+}
+[data-theme="dark"] img[src*="-logo"]:hover {
+  filter: none;
+}
