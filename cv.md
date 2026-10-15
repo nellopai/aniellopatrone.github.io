@@ -38,7 +38,7 @@ ref: cv
   <div class="timespan">2024&ndash;2026</div>
   <div class="pic">
     <div class="dot"></div>
-    <div class="logo"><img src="/assets/images/imc-logo.png" alt="IMC Krems logo" width="441" height="453" loading="lazy" decoding="async"></div>
+    <div class="logo"><picture><source srcset="/assets/images/imc-logo-dark.png" media="(prefers-color-scheme: dark)"><img src="/assets/images/imc-logo.png" alt="IMC Krems logo" width="441" height="453" loading="lazy" decoding="async"></picture></div>
   </div>
   <div class="desc">
     <b>Lecturer</b> (part-time) at <a href="https://www.imc.ac.at" target="_blank" rel="noopener">IMC University of Applied Sciences Krems</a>, Austria.
@@ -52,7 +52,7 @@ ref: cv
   <div class="timespan">2018&ndash;2020</div>
   <div class="pic">
     <div class="dot"></div>
-    <div class="logo"><img src="/assets/images/anyline-logo.png" alt="Anyline logo" width="367" height="137" loading="lazy" decoding="async"></div>
+    <div class="logo"><picture><source srcset="/assets/images/anyline-logo-dark.png" media="(prefers-color-scheme: dark)"><img src="/assets/images/anyline-logo.png" alt="Anyline logo" width="367" height="137" loading="lazy" decoding="async"></picture></div>
   </div>
   <div class="desc">
     <div class="role">
@@ -76,7 +76,7 @@ ref: cv
   <div class="timespan">2016&ndash;2017</div>
   <div class="pic">
     <div class="dot"></div>
-    <div class="logo"><img src="/assets/images/kiwi-logo.png" alt="KiwiSecurity logo" width="1417" height="337" loading="lazy" decoding="async"></div>
+    <div class="logo logo-tile"><img src="/assets/images/kiwi-logo.png" alt="KiwiSecurity logo" width="1417" height="337" loading="lazy" decoding="async"></div>
   </div>
   <div class="desc">
     <b>Computer Vision Developer</b> at <a href="https://www.genetec.com/products/unified-security/omnicast/video-analytics" target="_blank" rel="noopener">KiwiSecurity GmbH (now the video analytics department of Genetec)</a> in Vienna, Austria.
@@ -92,7 +92,7 @@ ref: cv
   <div class="timespan">2012&ndash;2016</div>
   <div class="pic">
     <div class="dot"></div>
-    <div class="logo"><img src="/assets/images/univie-logo.png" alt="University of Vienna seal" width="498" height="497" loading="lazy" decoding="async"></div>
+    <div class="logo"><picture><source srcset="/assets/images/univie-logo-dark.png" media="(prefers-color-scheme: dark)"><img src="/assets/images/univie-logo.png" alt="University of Vienna seal" width="498" height="497" loading="lazy" decoding="async"></picture></div>
   </div>
   <div class="desc">
     I earned a <b>PhD in Computer Science</b> with a focus on Computer Vision from the <a href="https://www.univie.ac.at/" target="_blank" rel="noopener">University of Vienna</a>, Faculty of Informatics, where I was supervised by <a href="https://www.csc.univie.ac.at/scherzer/" target="_blank" rel="noopener">Univ-Prof Dr Otmar Scherzer</a>, as a member of the Computational Science Center (<a href="https://www.csc.univie.ac.at/" target="_blank" rel="noopener">CSC</a>).
@@ -108,7 +108,7 @@ ref: cv
   <div class="timespan">2011&ndash;2012</div>
   <div class="pic">
     <div class="dot"></div>
-    <div class="logo"><img src="/assets/images/fed2-logo.png" alt="University of Naples Federico II seal" width="225" height="224" loading="lazy" decoding="async"></div>
+    <div class="logo"><picture><source srcset="/assets/images/fed2-logo-dark.png" media="(prefers-color-scheme: dark)"><img src="/assets/images/fed2-logo.png" alt="University of Naples Federico II seal" width="225" height="224" loading="lazy" decoding="async"></picture></div>
   </div>
   <div class="desc">
     <b>Research Associate</b> for the <a href="http://www.smile.unina.it/index.php/eye-tracker" target="_blank" rel="noopener">SMILE Project</a>, a spin-off of the University of Naples, Italy.
@@ -123,7 +123,7 @@ ref: cv
   <div class="timespan">2008&ndash;2011</div>
   <div class="pic">
     <div class="dot"></div>
-    <div class="logo"><img src="/assets/images/fed2-logo.png" alt="University of Naples Federico II seal" width="225" height="224" loading="lazy" decoding="async"></div>
+    <div class="logo"><picture><source srcset="/assets/images/fed2-logo-dark.png" media="(prefers-color-scheme: dark)"><img src="/assets/images/fed2-logo.png" alt="University of Naples Federico II seal" width="225" height="224" loading="lazy" decoding="async"></picture></div>
   </div>
   <div class="desc">
     I obtained an <b>MSc in Computer Science</b> from <a href="http://www.unina.it/en_GB/home" target="_blank" rel="noopener">University Federico II of Naples</a>, Italy. My master's thesis was on &ldquo;Uncalibrated eye-tracking system using Machine Learning for the prediction of the Point of Gaze&rdquo; and was primarily supervised by <a href="https://www.docenti.unina.it/#!/professor/4652414e434553434f495347524f27534752464e4336365432364732373341/riferimenti" target="_blank" rel="noopener">Univ-Prof Dr Francesco Isgr&ograve;</a>. Prior to my master's studies I graduated with a BSc in Computer Science.

@@ -38,7 +38,7 @@ ref: cv
   <div class="timespan">2024&ndash;2026</div>
   <div class="pic">
     <div class="dot"></div>
-    <div class="logo"><img src="/assets/images/imc-logo.png" alt="Logo der IMC Krems" width="441" height="453" loading="lazy" decoding="async"></div>
+    <div class="logo"><picture><source srcset="/assets/images/imc-logo-dark.png" media="(prefers-color-scheme: dark)"><img src="/assets/images/imc-logo.png" alt="Logo der IMC Krems" width="441" height="453" loading="lazy" decoding="async"></picture></div>
   </div>
   <div class="desc">
     <b>Lektor</b> (nebenberuflich) an der <a href="https://www.imc.ac.at" target="_blank" rel="noopener">IMC Krems</a>, Österreich.
@@ -52,7 +52,7 @@ ref: cv
   <div class="timespan">2018&ndash;2020</div>
   <div class="pic">
     <div class="dot"></div>
-    <div class="logo"><img src="/assets/images/anyline-logo.png" alt="Logo von Anyline" width="367" height="137" loading="lazy" decoding="async"></div>
+    <div class="logo"><picture><source srcset="/assets/images/anyline-logo-dark.png" media="(prefers-color-scheme: dark)"><img src="/assets/images/anyline-logo.png" alt="Logo von Anyline" width="367" height="137" loading="lazy" decoding="async"></picture></div>
   </div>
   <div class="desc">
     <div class="role">
@@ -76,7 +76,7 @@ ref: cv
   <div class="timespan">2016&ndash;2017</div>
   <div class="pic">
     <div class="dot"></div>
-    <div class="logo"><img src="/assets/images/kiwi-logo.png" alt="Logo von KiwiSecurity" width="1417" height="337" loading="lazy" decoding="async"></div>
+    <div class="logo logo-tile"><img src="/assets/images/kiwi-logo.png" alt="Logo von KiwiSecurity" width="1417" height="337" loading="lazy" decoding="async"></div>
   </div>
   <div class="desc">
     <b>Computer Vision Developer</b> bei <a href="https://www.genetec.com/products/unified-security/omnicast/video-analytics" target="_blank" rel="noopener">KiwiSecurity GmbH (heute die Video-Analytics-Abteilung von Genetec)</a> in Wien.
@@ -92,7 +92,7 @@ ref: cv
   <div class="timespan">2012&ndash;2016</div>
   <div class="pic">
     <div class="dot"></div>
-    <div class="logo"><img src="/assets/images/univie-logo.png" alt="Siegel der Universität Wien" width="498" height="497" loading="lazy" decoding="async"></div>
+    <div class="logo"><picture><source srcset="/assets/images/univie-logo-dark.png" media="(prefers-color-scheme: dark)"><img src="/assets/images/univie-logo.png" alt="Siegel der Universität Wien" width="498" height="497" loading="lazy" decoding="async"></picture></div>
   </div>
   <div class="desc">
     <b>Doktorat in Informatik</b> mit Schwerpunkt Computer Vision an der <a href="https://www.univie.ac.at/" target="_blank" rel="noopener">Universität Wien</a>, Fakultät für Informatik, betreut von <a href="https://www.csc.univie.ac.at/scherzer/" target="_blank" rel="noopener">Univ.-Prof. Dr. Otmar Scherzer</a>, als Mitglied des Computational Science Center (<a href="https://www.csc.univie.ac.at/" target="_blank" rel="noopener">CSC</a>).
@@ -108,7 +108,7 @@ ref: cv
   <div class="timespan">2011&ndash;2012</div>
   <div class="pic">
     <div class="dot"></div>
-    <div class="logo"><img src="/assets/images/fed2-logo.png" alt="Siegel der Universität Neapel Federico II" width="225" height="224" loading="lazy" decoding="async"></div>
+    <div class="logo"><picture><source srcset="/assets/images/fed2-logo-dark.png" media="(prefers-color-scheme: dark)"><img src="/assets/images/fed2-logo.png" alt="Siegel der Universität Neapel Federico II" width="225" height="224" loading="lazy" decoding="async"></picture></div>
   </div>
   <div class="desc">
     <b>Wissenschaftlicher Mitarbeiter</b> im <a href="http://www.smile.unina.it/index.php/eye-tracker" target="_blank" rel="noopener">SMILE-Projekt</a>, einem Spin-off der Universität Neapel, Italien.
@@ -123,7 +123,7 @@ ref: cv
   <div class="timespan">2008&ndash;2011</div>
   <div class="pic">
     <div class="dot"></div>
-    <div class="logo"><img src="/assets/images/fed2-logo.png" alt="Siegel der Universität Neapel Federico II" width="225" height="224" loading="lazy" decoding="async"></div>
+    <div class="logo"><picture><source srcset="/assets/images/fed2-logo-dark.png" media="(prefers-color-scheme: dark)"><img src="/assets/images/fed2-logo.png" alt="Siegel der Universität Neapel Federico II" width="225" height="224" loading="lazy" decoding="async"></picture></div>
   </div>
   <div class="desc">
     <b>Masterstudium Informatik (MSc)</b> an der <a href="http://www.unina.it/en_GB/home" target="_blank" rel="noopener">Universität Neapel Federico II</a>, Italien. Masterarbeit zum Thema &bdquo;Uncalibrated eye-tracking system using Machine Learning for the prediction of the Point of Gaze&ldquo;, hauptsächlich betreut von <a href="https://www.docenti.unina.it/#!/professor/4652414e434553434f495347524f27534752464e4336365432364732373341/riferimenti" target="_blank" rel="noopener">Univ.-Prof. Dr. Francesco Isgr&ograve;</a>. Davor Bachelorstudium Informatik (BSc).

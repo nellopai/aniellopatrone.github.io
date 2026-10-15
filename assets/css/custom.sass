@@ -187,9 +187,10 @@ body > header > nav a
     color: $dark
     border-radius: 2px
 
-// dark mode: logos keep a light backing, timeline dots match the background
+// dark mode: most logos switch to light-ink variants via <picture> in cv.md;
+// only logos marked .logo-tile (brand colours that vanish on dark) keep a light backing
 @media (prefers-color-scheme: dark)
-    .logo
+    .logo-tile
         background: #fff
         padding: .3em
         border-radius: 4px
