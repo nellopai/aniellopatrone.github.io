@@ -1,37 +1,33 @@
-/* Timeline logos: keep them readable and consistent in dark mode.
-   All CV logos are named *-logo.png, so no markup changes are needed. */
+/* CV timeline logos in dark mode.
+   No markup changes needed: every logo is matched by its file name. */
 
 @media (prefers-color-scheme: dark) {
-  img[src*="-logo"] {
-    /* Light tile: turns the white PNG backgrounds into a deliberate element */
+  /* Single-colour logos: show a light-ink, transparent version instead.
+     The dark variants have the same pixel size as the originals, so the
+     layout doesn't move. The original image is pushed out of its box and
+     the dark variant is drawn as the background. */
+  img[src*="anyline-logo"],
+  img[src*="imc-logo"],
+  img[src*="univie-logo"],
+  img[src*="fed2-logo"] {
+    object-position: -99999px 0;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  img[src*="anyline-logo"] { background-image: url("../images/anyline-logo-dark.png"); }
+  img[src*="imc-logo"]     { background-image: url("../images/imc-logo-dark.png"); }
+  img[src*="univie-logo"]  { background-image: url("../images/univie-logo-dark.png"); }
+  img[src*="fed2-logo"]    { background-image: url("../images/fed2-logo-dark.png"); }
+
+  /* KiwiSecurity: navy brand colours vanish on dark, so keep it on a light tile. */
+  img[src*="kiwi-logo"] {
     background: #f4f6f8;
     padding: 6px;
     border-radius: 8px;
-    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.08);
     box-sizing: border-box;
     object-fit: contain;
-    /* Slightly dim so the tiles don't glare against the dark page */
-    filter: brightness(0.92);
-    transition: filter 0.2s ease;
   }
 
-  img[src*="-logo"]:hover {
-    filter: none;
-  }
-}
-
-/* Same rules for a manual theme toggle, if the site uses one.
-   Harmless if no element ever gets data-theme="dark". */
-[data-theme="dark"] img[src*="-logo"] {
-  background: #f4f6f8;
-  padding: 6px;
-  border-radius: 8px;
-  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.08);
-  box-sizing: border-box;
-  object-fit: contain;
-  filter: brightness(0.92);
-  transition: filter 0.2s ease;
-}
-[data-theme="dark"] img[src*="-logo"]:hover {
-  filter: none;
+  /* piur: already transparent and readable, nothing to do. */
 }
