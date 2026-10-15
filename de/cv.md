@@ -76,7 +76,7 @@ ref: cv
   <div class="timespan">2016&ndash;2017</div>
   <div class="pic">
     <div class="dot"></div>
-    <div class="logo logo-tile"><img src="/assets/images/kiwi-logo.png" alt="Logo von KiwiSecurity" width="1417" height="337" loading="lazy" decoding="async"></div>
+    <div class="logo"><picture><source srcset="/assets/images/kiwi-logo-dark.png" media="(prefers-color-scheme: dark)"><img src="/assets/images/kiwi-logo.png" alt="Logo von KiwiSecurity" width="1417" height="337" loading="lazy" decoding="async"></picture></div>
   </div>
   <div class="desc">
     <b>Computer Vision Developer</b> bei <a href="https://www.genetec.com/products/unified-security/omnicast/video-analytics" target="_blank" rel="noopener">KiwiSecurity GmbH (heute die Video-Analytics-Abteilung von Genetec)</a> in Wien.
