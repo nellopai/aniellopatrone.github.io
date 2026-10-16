@@ -20,15 +20,17 @@ ref: cv
       <ul>
         <li>Recruited and managed a team of three AI engineers</li>
         <li>Conceived, planned and prioritized the AI roadmap in alignment with company goals</li>
-        <li>Researched and developed deep learning models for object tracking estimation, thyroid and carotid segmentation, and federated learning</li>
+        <li>Delivered deep learning solutions for object tracking estimation, thyroid and carotid segmentation, and federated learning, replacing manual, classical computer vision workflows with one-click automatic results</li>
       </ul>
     </div>
     <div class="role">
       <b>Senior Deep Learning Scientist</b> (2021&ndash;2023) at piur imaging GmbH.
       <ul>
-        <li>Researched and developed deep learning models for object tracking estimation and for thyroid and carotid segmentation</li>
-        <li>Created a DICOM server-client system</li>
-        <li>Designed and developed deep learning workflows ensuring traceability and reproducibility of machine learning experiments (MLOps)</li>
+        <li>Joined a company with no prior AI and established its AI development from scratch</li>
+        <li>Built the company's production deep learning models for object tracking estimation and for thyroid and carotid segmentation</li>
+        <li>Created a DICOM client&ndash;server system</li>
+        <li>Set up the MLOps stack (Airflow, later ClearML) for traceable, reproducible experiments, and defined data formats and machine learning coding practices</li>
+        <li>Ensured research code moves to production quickly: the AI software is a standalone, testable Python repository, independent of the product UI</li>
         <li>Implemented CI/CD improvements</li>
       </ul>
     </div>
@@ -147,13 +149,13 @@ ref: cv
 <section>
 <h2>Skills</h2>
 <ul class="skills">
-  <li><b>Deep learning:</b> PyTorch, torchvision, Albumentations, TensorFlow</li>
-  <li><b>Computer vision and medical imaging:</b> OpenCV, MONAI, pydicom, DICOM</li>
+  <li><b>Deep learning:</b> PyTorch, torchvision, TensorFlow</li>
+  <li><b>Computer vision and medical imaging:</b> OpenCV, scikit-image, Albumentations, MONAI, SimpleITK, pydicom, DICOM</li>
   <li><b>Federated learning:</b> NVIDIA FLARE</li>
-  <li><b>Model deployment:</b> ONNX, ONNX Runtime, TensorRT, OpenVINO</li>
+  <li><b>Model deployment:</b> ONNX / ONNX Runtime, TensorRT, OpenVINO</li>
   <li><b>MLOps:</b> ClearML, MLflow, DVC, Airflow, TensorBoard</li>
   <li><b>Machine learning and data:</b> scikit-learn, NumPy, Pandas, Pydantic, Jupyter</li>
-  <li><b>Generative AI and AI-assisted development:</b> Anthropic Claude, Claude Code</li>
+  <li><b>AI-assisted development:</b> Claude Code, GitHub Copilot</li>
   <li><b>Programming languages:</b> Python, C++, C</li>
   <li><b>Engineering tools:</b> Git, Docker, pytest, CMake, Linux, CI/CD</li>
   <li><b>Databases:</b> PostgreSQL, MySQL</li>
@@ -161,13 +163,13 @@ ref: cv
 </ul>
 </section>
 <section>
-<h2>Certifications</h2>
+<h2>Courses</h2>
 <ul class="skills">
-  <li><b>Claude Code in Action</b>, Anthropic</li>
+  <li><b>Claude Code in Action</b>, Anthropic (2026)</li>
 </ul>
 </section>
 <section>
 <h2>Languages</h2>
-<p>Italian (native), English (proficient), German (intermediate), Romanian (basic).</p>
+<p>Italian (native), English (C1), German (B2), Romanian (A1).</p>
 <p>Full CV available upon request.</p>
 </section>
