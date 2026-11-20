@@ -20,7 +20,7 @@ ref: cv
       <ul>
         <li>Recruited and lead a team of three AI engineers; define and prioritize the AI roadmap in alignment with company goals</li>
         <li>Took models into production for thyroid, vein and carotid plaque volume (CPV) segmentation and thyroid side identification; also developed TI-RADS classification</li>
-        <li>Sensorless 3D tracking: estimating 3D rotations and translations from transverse ultrasound images alone, with the latest model reaching 5% error across devices and organs</li>
+        <li>Sensorless 3D tracking: estimating 3D rotations and translations from transverse ultrasound images alone, with the latest model reaching an error of 5% of the mean scan length across devices and organs</li>
         <li>3D thyroid volumetry, previously unavailable (clinicians used 2D ultrasound only): one-click segmentation in 20&nbsp;s instead of 3&nbsp;minutes of manual labelling</li>
         <li>Fine-tuned foundation models (SAM, MedSAM) on in-house ultrasound data for zero-shot segmentation of organs not seen in training</li>
         <li>Federated learning with NVIDIA FLARE in an FFG-funded project</li>

@@ -20,7 +20,7 @@ ref: cv
       <ul>
         <li>Aufbau und Leitung eines Teams von drei AI Engineers; Planung und Priorisierung der KI-Roadmap im Einklang mit den Unternehmenszielen</li>
         <li>Modelle in Produktion gebracht für die Segmentierung von Schilddrüse, Venen und Karotisplaque-Volumen (CPV) sowie die Seitenerkennung der Schilddrüse; außerdem Entwicklung einer TI-RADS-Klassifikation</li>
-        <li>Sensorloses 3D-Tracking: Schätzung von 3D-Rotationen und -Translationen allein aus transversalen Ultraschallbildern; das aktuelle Modell erreicht 5&nbsp;% Fehler über Geräte und Organe hinweg</li>
+        <li>Sensorloses 3D-Tracking: Schätzung von 3D-Rotationen und -Translationen allein aus transversalen Ultraschallbildern; das aktuelle Modell erreicht einen Fehler von 5&nbsp;% der mittleren Scanlänge über Geräte und Organe hinweg</li>
         <li>3D-Volumetrie der Schilddrüse, bisher nicht verfügbar (klinisch nur 2D-Ultraschall): Segmentierung per Klick in 20&nbsp;s statt 3&nbsp;Minuten manueller Annotation</li>
         <li>Fine-Tuning von Foundation Models (SAM, MedSAM) auf eigenen Ultraschalldaten für Zero-Shot-Segmentierung von Organen, die nicht im Training enthalten waren</li>
         <li>Federated Learning mit NVIDIA FLARE in einem FFG-geförderten Projekt</li>
