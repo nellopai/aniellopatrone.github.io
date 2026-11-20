@@ -20,7 +20,7 @@ navigation_de:
   - {url: "/de/publications/", title: "Publikationen"}
 
 external:                  # see http://fontawesome.com/icons
-  - {title: Mail, icon: envelope, url: "mailto:npatrone@protonmail.com"}
+  - {title: Mail, icon: envelope, url: "mailto:contact@aniellopatrone.eu"}
   - {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/aniello-raffaele-patrone-71183127/"}
   - {title: Github, icon: github, url: "https://github.com/nellopai"}
 
