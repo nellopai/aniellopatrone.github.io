@@ -65,7 +65,7 @@ ref: cv
       <b>Senior Computer Vision Engineer</b> (2019&ndash;2020) at <a href="https://anyline.com/" target="_blank" rel="noopener">Anyline GmbH</a> in Vienna, Austria.
       <ul>
         <li>Researched and developed on-device deep learning models for meter reading, licence plate and ID document recognition, shipped in the Anyline mobile SDK used by all Anyline customers</li>
-        <li>Co-inventor of a patent on anonymizing text in ID document training images (see <a href="/publications/">publications</a>)</li>
+        <li>Co-inventor of a patent on anonymizing text in ID document training images, granted in the US and Europe (see <a href="/publications/">publications</a>)</li>
         <li>Acted as Project Manager for two customer-facing projects</li>
       </ul>
     </div>

@@ -65,7 +65,7 @@ ref: cv
       <b>Senior Computer Vision Engineer</b> (2019&ndash;2020) bei <a href="https://anyline.com/" target="_blank" rel="noopener">Anyline GmbH</a> in Wien.
       <ul>
         <li>Forschung und Entwicklung von On-Device-Deep-Learning-Modellen für Zählerablesung, Kennzeichen- und Ausweiserkennung, ausgeliefert im Anyline Mobile SDK, das alle Anyline-Kunden nutzen</li>
-        <li>Miterfinder eines Patents zur Anonymisierung von Text in Trainingsbildern von Ausweisdokumenten (siehe <a href="/de/publications/">Publikationen</a>)</li>
+        <li>Miterfinder eines in den USA und Europa erteilten Patents zur Anonymisierung von Text in Trainingsbildern von Ausweisdokumenten (siehe <a href="/de/publications/">Publikationen</a>)</li>
         <li>Projektmanager für zwei Kundenprojekte</li>
       </ul>
     </div>

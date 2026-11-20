@@ -1,5 +1,5 @@
 ---
-description: "Fachartikel, Patent und Konferenzbeiträge von Aniello R. Patrone zu Computer Vision und mathematischer Bildanalyse."
+description: "Fachartikel, Patente und Konferenzbeiträge von Aniello R. Patrone zu Computer Vision und mathematischer Bildanalyse."
 title: "Publikationen"
 permalink: "/de/publications/"
 layout: page
@@ -35,8 +35,8 @@ Patente:
 
 * <strong>Anonymizing textual content in image training data</strong><br/>
     D. Albertini, M. Cerman, M. Schwarz, and <strong>A. R. Patrone</strong>.<br/>
-    <em>US-Patent 12,443,751 B2</em>, erteilt 2025 (Inhaber: Anyline GmbH). Auch veröffentlicht als europäische Patentanmeldung EP 3955150 A1 (2022).
-    [<a href="https://patents.google.com/patent/US12443751B2" target="_blank" rel="noopener">US-Patent</a>] [<a href="https://worldwide.espacenet.com/publicationDetails/biblio?CC=EP&NR=3955150A1&KC=A1&FT=D" target="_blank" rel="noopener">Espacenet</a>]
+    <em>US-Patent 12,443,751 B2</em>, erteilt 2025, und <em>Europäisches Patent EP 4 196 897 B1</em>, erteilt 2026 (Inhaber: Anyline GmbH).
+    [<a href="https://patents.google.com/patent/US12443751B2" target="_blank" rel="noopener">US-Patent</a>] [<a href="https://patents.google.com/patent/EP4196897B1" target="_blank" rel="noopener">EP-Patent</a>]
 
 Konferenzbeiträge:
 
