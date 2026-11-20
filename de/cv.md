@@ -18,17 +18,23 @@ ref: cv
     <div class="role">
       <b>Lead AI Scientist</b> (seit 2023) bei <a href="https://piurimaging.com/" target="_blank" rel="noopener">piur imaging GmbH</a> in Wien.
       <ul>
-        <li>Aufbau und Leitung eines Teams von drei AI Engineers</li>
-        <li>Konzeption, Planung und Priorisierung der KI-Roadmap im Einklang mit den Unternehmenszielen</li>
-        <li>Forschung und Entwicklung von Deep-Learning-Modellen für Objekt-Tracking, Schilddrüsen- und Karotissegmentierung sowie Federated Learning</li>
+        <li>Aufbau und Leitung eines Teams von drei AI Engineers; Planung und Priorisierung der KI-Roadmap im Einklang mit den Unternehmenszielen</li>
+        <li>Modelle in Produktion gebracht für die Segmentierung von Schilddrüse, Venen und Karotisplaque-Volumen (CPV) sowie die Seitenerkennung der Schilddrüse; außerdem Entwicklung einer TI-RADS-Klassifikation</li>
+        <li>Sensorloses 3D-Tracking: Schätzung von 3D-Rotationen und -Translationen allein aus transversalen Ultraschallbildern; das aktuelle Modell erreicht 5&nbsp;% Fehler über Geräte und Organe hinweg</li>
+        <li>3D-Volumetrie der Schilddrüse, bisher nicht verfügbar (klinisch nur 2D-Ultraschall): Segmentierung per Klick in 20&nbsp;s statt 3&nbsp;Minuten manueller Annotation</li>
+        <li>Fine-Tuning von Foundation Models (SAM, MedSAM) auf eigenen Ultraschalldaten für Zero-Shot-Segmentierung von Organen, die nicht im Training enthalten waren</li>
+        <li>Federated Learning mit NVIDIA FLARE in einem FFG-geförderten Projekt</li>
+        <li>Technische KI-Dokumentation für MDR- und FDA-Einreichungen</li>
       </ul>
     </div>
     <div class="role">
       <b>Senior Deep Learning Scientist</b> (2021&ndash;2023) bei piur imaging GmbH.
       <ul>
-        <li>Forschung und Entwicklung von Deep-Learning-Modellen für Objekt-Tracking sowie Schilddrüsen- und Karotissegmentierung</li>
-        <li>Aufbau eines DICOM-Server-Client-Systems</li>
-        <li>Konzeption und Entwicklung von Deep-Learning-Workflows für nachvollziehbare und reproduzierbare ML-Experimente (MLOps)</li>
+        <li>Einstieg in ein Unternehmen ohne bisherige KI und Aufbau der KI-Entwicklung von Grund auf</li>
+        <li>Entwicklung der ersten produktiven Deep-Learning-Modelle des Unternehmens für Objekt-Tracking sowie Schilddrüsen- und Karotissegmentierung</li>
+        <li>Aufbau eines DICOM-Client-Server-Systems</li>
+        <li>Aufbau des MLOps-Stacks (Airflow, später ClearML) für nachvollziehbare und reproduzierbare Experimente; Festlegung von Datenformaten und Coding-Richtlinien für maschinelles Lernen</li>
+        <li>Schneller Weg von der Forschung in die Produktion: Die KI-Software ist ein eigenständiges, testbares Python-Repository, unabhängig von der Produktoberfläche</li>
         <li>Verbesserung der CI/CD-Prozesse</li>
       </ul>
     </div>
@@ -58,7 +64,8 @@ ref: cv
     <div class="role">
       <b>Senior Computer Vision Engineer</b> (2019&ndash;2020) bei <a href="https://anyline.com/" target="_blank" rel="noopener">Anyline GmbH</a> in Wien.
       <ul>
-        <li>Forschung und Entwicklung von Deep-Learning-Modellen für verschiedene Anwendungsfälle auf mobilen Geräten</li>
+        <li>Forschung und Entwicklung von On-Device-Deep-Learning-Modellen für Zählerablesung, Kennzeichen- und Ausweiserkennung, ausgeliefert im Anyline Mobile SDK, das alle Anyline-Kunden nutzen</li>
+        <li>Miterfinder eines Patents zur Anonymisierung von Text in Trainingsbildern von Ausweisdokumenten (siehe <a href="/de/publications/">Publikationen</a>)</li>
         <li>Projektmanager für zwei Kundenprojekte</li>
       </ul>
     </div>
@@ -147,13 +154,15 @@ ref: cv
 <section>
 <h2>Kenntnisse</h2>
 <ul class="skills">
-  <li><b>Deep Learning:</b> PyTorch, torchvision, Albumentations, TensorFlow</li>
-  <li><b>Computer Vision und medizinische Bildgebung:</b> OpenCV, MONAI, pydicom, DICOM</li>
+  <li><b>Deep Learning:</b> PyTorch, torchvision, TensorFlow</li>
+  <li><b>Foundation Models:</b> SAM, MedSAM (Fine-Tuning auf Ultraschall, Zero-Shot-Segmentierung)</li>
+  <li><b>Computer Vision:</b> OpenCV, scikit-image, Albumentations</li>
+  <li><b>Medizinische Bildgebung:</b> Ultraschall (2D/3D), DICOM, MONAI, SimpleITK, pydicom, pynetdicom</li>
   <li><b>Federated Learning:</b> NVIDIA FLARE</li>
-  <li><b>Modell-Deployment:</b> ONNX, ONNX Runtime, TensorRT, OpenVINO</li>
+  <li><b>Modell-Deployment:</b> ONNX / ONNX Runtime, TensorRT, OpenVINO</li>
   <li><b>MLOps:</b> ClearML, MLflow, DVC, Airflow, TensorBoard</li>
   <li><b>Maschinelles Lernen und Daten:</b> scikit-learn, NumPy, Pandas, Pydantic, Jupyter</li>
-  <li><b>Generative KI und KI-gestützte Entwicklung:</b> Anthropic Claude, Claude Code</li>
+  <li><b>KI-gestützte Entwicklung:</b> Claude Code, GitHub Copilot</li>
   <li><b>Programmiersprachen:</b> Python, C++, C</li>
   <li><b>Entwicklungswerkzeuge:</b> Git, Docker, pytest, CMake, Linux, CI/CD</li>
   <li><b>Datenbanken:</b> PostgreSQL, MySQL</li>
@@ -163,7 +172,7 @@ ref: cv
 <section>
 <h2>Zertifikate</h2>
 <ul class="skills">
-  <li><b>Claude Code in Action</b>, Anthropic</li>
+  <li><b>Claude Code in Action</b>, Anthropic (2026)</li>
 </ul>
 </section>
 <section>

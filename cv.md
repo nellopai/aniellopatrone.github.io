@@ -18,9 +18,13 @@ ref: cv
     <div class="role">
       <b>Lead AI Scientist</b> (2023&ndash;today) at <a href="https://piurimaging.com/" target="_blank" rel="noopener">piur imaging GmbH</a> in Vienna, Austria.
       <ul>
-        <li>Recruited and managed a team of three AI engineers</li>
-        <li>Conceived, planned and prioritized the AI roadmap in alignment with company goals</li>
-        <li>Delivered deep learning solutions for object tracking estimation, thyroid and carotid segmentation, and federated learning, replacing manual, classical computer vision workflows with one-click automatic results</li>
+        <li>Recruited and lead a team of three AI engineers; define and prioritize the AI roadmap in alignment with company goals</li>
+        <li>Took models into production for thyroid, vein and carotid plaque volume (CPV) segmentation and thyroid side identification; also developed TI-RADS classification</li>
+        <li>Sensorless 3D tracking: estimating 3D rotations and translations from transverse ultrasound images alone, with the latest model reaching 5% error across devices and organs</li>
+        <li>3D thyroid volumetry, previously unavailable (clinicians used 2D ultrasound only): one-click segmentation in 20&nbsp;s instead of 3&nbsp;minutes of manual labelling</li>
+        <li>Fine-tuned foundation models (SAM, MedSAM) on in-house ultrasound data for zero-shot segmentation of organs not seen in training</li>
+        <li>Federated learning with NVIDIA FLARE in an FFG-funded project</li>
+        <li>Technical AI documentation for MDR and FDA submissions</li>
       </ul>
     </div>
     <div class="role">
@@ -60,7 +64,8 @@ ref: cv
     <div class="role">
       <b>Senior Computer Vision Engineer</b> (2019&ndash;2020) at <a href="https://anyline.com/" target="_blank" rel="noopener">Anyline GmbH</a> in Vienna, Austria.
       <ul>
-        <li>Researched and developed deep learning models for various use cases on mobile devices</li>
+        <li>Researched and developed on-device deep learning models for meter reading, licence plate and ID document recognition, shipped in the Anyline mobile SDK used by all Anyline customers</li>
+        <li>Co-inventor of a patent on anonymizing text in ID document training images (see <a href="/publications/">publications</a>)</li>
         <li>Acted as Project Manager for two customer-facing projects</li>
       </ul>
     </div>
@@ -150,7 +155,9 @@ ref: cv
 <h2>Skills</h2>
 <ul class="skills">
   <li><b>Deep learning:</b> PyTorch, torchvision, TensorFlow</li>
-  <li><b>Computer vision and medical imaging:</b> OpenCV, scikit-image, Albumentations, MONAI, SimpleITK, pydicom, DICOM</li>
+  <li><b>Foundation models:</b> SAM, MedSAM (fine-tuning on ultrasound, zero-shot segmentation)</li>
+  <li><b>Computer vision:</b> OpenCV, scikit-image, Albumentations</li>
+  <li><b>Medical imaging:</b> Ultrasound (2D/3D), DICOM, MONAI, SimpleITK, pydicom, pynetdicom</li>
   <li><b>Federated learning:</b> NVIDIA FLARE</li>
   <li><b>Model deployment:</b> ONNX / ONNX Runtime, TensorRT, OpenVINO</li>
   <li><b>MLOps:</b> ClearML, MLflow, DVC, Airflow, TensorBoard</li>

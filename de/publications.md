@@ -28,7 +28,7 @@ Fachartikel:
 
 * <strong>The effect of cinematic cuts on human attention</strong><br/>
     C. Valuch, U. Ansorge, S. Buchinger,<strong> A. R. Patrone</strong>, and O. Scherzer.<br/>
-    <em>TVX '14: Proceedings of the 2014 ACM International Conference on Interactive Experiences for TV and Online Video. ACM</em>, 2014
+    <em>TVX '14: Proceedings of the 2014 ACM International Conference on Interactive Experiences for TV and Online Video, S. 119&ndash;122. ACM</em>, 2014
     [<a href="https://doi.org/10.1145/2602299.2602307" target="_blank" rel="noopener">DOI</a>] [<a href="https://dl.acm.org/doi/10.1145/2602299.2602307" target="_blank" rel="noopener">Paper</a>]
 
 Patente:
