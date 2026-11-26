@@ -31,11 +31,10 @@ ref: cv
       <b>Senior Deep Learning Scientist</b> (2021&ndash;2023) bei piur imaging GmbH.
       <ul>
         <li>Einstieg in ein Unternehmen ohne bisherige KI und Aufbau der KI-Entwicklung von Grund auf</li>
-        <li>Entwicklung der ersten produktiven Deep-Learning-Modelle des Unternehmens für Objekt-Tracking sowie Schilddrüsen- und Karotissegmentierung</li>
+        <li>Entwicklung der ersten produktiven Deep-Learning-Modelle des Unternehmens für 3D-Tracking sowie Schilddrüsen- und Karotissegmentierung</li>
         <li>Aufbau eines DICOM-Client-Server-Systems</li>
-        <li>Aufbau des MLOps-Stacks (Airflow, später ClearML) für nachvollziehbare und reproduzierbare Experimente; Festlegung von Datenformaten und Coding-Richtlinien für maschinelles Lernen</li>
+        <li>Aufbau des MLOps-Stacks (Airflow, später ClearML) für nachvollziehbare und reproduzierbare Experimente; Festlegung von Datenformaten, Coding-Richtlinien für maschinelles Lernen und CI/CD</li>
         <li>Schneller Weg von der Forschung in die Produktion: Die KI-Software ist ein eigenständiges, testbares Python-Repository, unabhängig von der Produktoberfläche</li>
-        <li>Verbesserung der CI/CD-Prozesse</li>
       </ul>
     </div>
   </div>

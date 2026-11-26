@@ -31,11 +31,10 @@ ref: cv
       <b>Senior Deep Learning Scientist</b> (2021&ndash;2023) at piur imaging GmbH.
       <ul>
         <li>Joined a company with no prior AI and established its AI development from scratch</li>
-        <li>Built the company's production deep learning models for object tracking estimation and for thyroid and carotid segmentation</li>
+        <li>Built the company's production deep learning models for 3D tracking and for thyroid and carotid segmentation</li>
         <li>Created a DICOM client&ndash;server system</li>
-        <li>Set up the MLOps stack (Airflow, later ClearML) for traceable, reproducible experiments, and defined data formats and machine learning coding practices</li>
+        <li>Set up the MLOps stack (Airflow, later ClearML) for traceable, reproducible experiments; defined data formats, machine learning coding practices and CI/CD</li>
         <li>Ensured research code moves to production quickly: the AI software is a standalone, testable Python repository, independent of the product UI</li>
-        <li>Implemented CI/CD improvements</li>
       </ul>
     </div>
   </div>
