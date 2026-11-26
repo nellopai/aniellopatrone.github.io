@@ -24,6 +24,7 @@ ref: cv
         <li>3D thyroid volumetry, previously unavailable (clinicians used 2D ultrasound only): one-click segmentation in 20&nbsp;s instead of 3&nbsp;minutes of manual labelling</li>
         <li>Fine-tuned foundation models (SAM, MedSAM) on in-house ultrasound data for zero-shot segmentation of organs not seen in training</li>
         <li>Federated learning with NVIDIA FLARE in an FFG-funded project</li>
+        <li>Automated model delivery: ClearML integrates each newly trained model into a new git branch for the end user to review; added Claude-based code reviews to the Bitbucket CI pipeline</li>
         <li>Technical AI documentation for MDR and FDA submissions</li>
       </ul>
     </div>
@@ -33,7 +34,7 @@ ref: cv
         <li>Joined a company with no prior AI and established its AI development from scratch</li>
         <li>Built the company's production deep learning models for 3D tracking and for thyroid and carotid segmentation</li>
         <li>Created a DICOM client&ndash;server system</li>
-        <li>Set up the MLOps stack (Airflow, later ClearML) for traceable, reproducible experiments; defined data formats, machine learning coding practices and CI/CD</li>
+        <li>Set up the MLOps stack (Airflow, later ClearML) for traceable, reproducible experiments; defined data formats and machine learning coding practices; set up automated testing on Bitbucket Pipelines</li>
         <li>Ensured research code moves to production quickly: the AI software is a standalone, testable Python repository, independent of the product UI</li>
       </ul>
     </div>
@@ -163,7 +164,7 @@ ref: cv
   <li><b>Machine learning and data:</b> scikit-learn, NumPy, Pandas, Pydantic, Jupyter</li>
   <li><b>AI-assisted development:</b> Claude Code, GitHub Copilot</li>
   <li><b>Programming languages:</b> Python, C++, C</li>
-  <li><b>Engineering tools:</b> Git, Docker, pytest, CMake, Linux, CI/CD</li>
+  <li><b>Engineering tools:</b> Git, Docker, pytest, CMake, Linux, Bitbucket Pipelines</li>
   <li><b>Databases:</b> PostgreSQL, MySQL</li>
   <li><b>Ways of working:</b> Scrum (former Scrum Master), Agile, Jira</li>
 </ul>

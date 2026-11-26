@@ -24,6 +24,7 @@ ref: cv
         <li>3D-Volumetrie der Schilddrüse, bisher nicht verfügbar (klinisch nur 2D-Ultraschall): Segmentierung per Klick in 20&nbsp;s statt 3&nbsp;Minuten manueller Annotation</li>
         <li>Fine-Tuning von Foundation Models (SAM, MedSAM) auf eigenen Ultraschalldaten für Zero-Shot-Segmentierung von Organen, die nicht im Training enthalten waren</li>
         <li>Federated Learning mit NVIDIA FLARE in einem FFG-geförderten Projekt</li>
+        <li>Automatisierte Modellauslieferung: ClearML integriert jedes neu trainierte Modell in einen eigenen Git-Branch, den der Endnutzer prüft; Claude-basierte Code-Reviews in die Bitbucket-CI-Pipeline integriert</li>
         <li>Technische KI-Dokumentation für MDR- und FDA-Einreichungen</li>
       </ul>
     </div>
@@ -33,7 +34,7 @@ ref: cv
         <li>Einstieg in ein Unternehmen ohne bisherige KI und Aufbau der KI-Entwicklung von Grund auf</li>
         <li>Entwicklung der ersten produktiven Deep-Learning-Modelle des Unternehmens für 3D-Tracking sowie Schilddrüsen- und Karotissegmentierung</li>
         <li>Aufbau eines DICOM-Client-Server-Systems</li>
-        <li>Aufbau des MLOps-Stacks (Airflow, später ClearML) für nachvollziehbare und reproduzierbare Experimente; Festlegung von Datenformaten, Coding-Richtlinien für maschinelles Lernen und CI/CD</li>
+        <li>Aufbau des MLOps-Stacks (Airflow, später ClearML) für nachvollziehbare und reproduzierbare Experimente; Festlegung von Datenformaten und Coding-Richtlinien für maschinelles Lernen; automatisierte Tests mit Bitbucket Pipelines</li>
         <li>Schneller Weg von der Forschung in die Produktion: Die KI-Software ist ein eigenständiges, testbares Python-Repository, unabhängig von der Produktoberfläche</li>
       </ul>
     </div>
@@ -163,7 +164,7 @@ ref: cv
   <li><b>Maschinelles Lernen und Daten:</b> scikit-learn, NumPy, Pandas, Pydantic, Jupyter</li>
   <li><b>KI-gestützte Entwicklung:</b> Claude Code, GitHub Copilot</li>
   <li><b>Programmiersprachen:</b> Python, C++, C</li>
-  <li><b>Entwicklungswerkzeuge:</b> Git, Docker, pytest, CMake, Linux, CI/CD</li>
+  <li><b>Entwicklungswerkzeuge:</b> Git, Docker, pytest, CMake, Linux, Bitbucket Pipelines</li>
   <li><b>Datenbanken:</b> PostgreSQL, MySQL</li>
   <li><b>Arbeitsweise:</b> Scrum (ehemaliger Scrum Master), Agile, Jira</li>
 </ul>
